@@ -6,6 +6,7 @@ const PRIX= {
 	Tour.Type.ZONE : 40,
 }
 @onready var PanelTower : VBoxContainer = $PanelTower
+@onready var PanelUpgrade : VBoxContainer = $PanelUpgrade
 signal demande_menu(emplacement)
 signal Panel_Open(panel)
 var tour = null
@@ -26,7 +27,9 @@ func _on_pressed():
 	for e in get_tree().get_nodes_in_group("emplacement"):
 		if e != self:
 			e.PanelTower.visible = false
+			e.PanelUpgrade.visible = true
 	PanelTower.visible = not PanelTower.visible
+	PanelUpgrade.visible = not PanelUpgrade.visible
 
 func _acheter(type: Tour.Type):
 	if tour !=null:
