@@ -13,6 +13,7 @@ var tour = null
 
 func _ready() -> void:
 	add_to_group("emplacement")
+	PanelUpgrade.visible = false
 	PanelTower.visible = false
 	pressed.connect(_on_pressed)
 	$"PanelTower/Light tower".pressed.connect(func(): _acheter(Tour.Type.RALENTI))
