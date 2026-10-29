@@ -15,11 +15,12 @@ func _ready() -> void:
 
 
 func _process(delta: float) -> void:
-	if Global.spawn == 0:
-		spawn_enemy()
 	if Global.life == 0:
 		print("game over")
 		get_tree().change_scene_to_file("res://scene/main/game_over.tscn")
+	if Global.spawn == 0:
+		spawn_enemy()
+
 #apparaition de l'ennemie
 func spawn_enemy() -> void:
 	var path_follow = PathFollow2D.new()
