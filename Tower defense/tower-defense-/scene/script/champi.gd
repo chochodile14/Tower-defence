@@ -25,11 +25,6 @@ func _process(delta: float) -> void:
 	else:
 		facteur = 1.0
 	path_follow.progress += vitesse * facteur * delta
-	if path_follow.progress_ratio >= 1.0 and not fini:
-		fini = true
-		Global.spawn -= 1
-		print("ARRIVÉ AU BOUT | spawn = ", Global.spawn)
-		path_follow.queue_free()
 
 
 func take_dammage(amount:int):

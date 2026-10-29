@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://bky2270m1x7uw" path="res://scene/script/degat.gd" id="1_p31wi"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_g4v7s"]
-radius = 57.245087
+radius = 115.0
 
 [node name="Degat" type="Area2D" unique_id=1010962683]
 script = ExtResource("1_p31wi")
