@@ -16,6 +16,8 @@ func _ready() -> void:
 	PanelUpgrade.visible = false
 	PanelTower.visible = false
 	pressed.connect(_on_pressed)
+	$PanelUpgrade/StatAft.text = Tour.Type.SOLO[degats]
+	$PanelUpgrade/StatPre.text = Tour.Type.SOLO[degats] +3
 	$"PanelTower/Light tower".pressed.connect(func(): _acheter(Tour.Type.RALENTI))
 	$"PanelTower/Bomber tower".pressed.connect(func(): _acheter(Tour.Type.ZONE))
 	$"PanelTower/Archer tower".pressed.connect(func(): _acheter(Tour.Type.SOLO))
@@ -23,14 +25,15 @@ func _ready() -> void:
 
 func _on_pressed():
 	demande_menu.emit(self)
-	if tour != null:
-		return
 	for e in get_tree().get_nodes_in_group("emplacement"):
 		if e != self:
 			e.PanelTower.visible = false
-			e.PanelUpgrade.visible = true
-	PanelTower.visible = not PanelTower.visible
-	PanelUpgrade.visible = not PanelUpgrade.visible
+			e.PanelUpgrade.visible = false
+	if tour != null:
+		PanelUpgrade.visible = not PanelUpgrade.visible
+	else:
+		PanelTower.visible = not PanelTower.visible
+	
 
 func _acheter(type: Tour.Type):
 	if tour !=null:

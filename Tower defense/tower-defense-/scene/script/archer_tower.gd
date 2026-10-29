@@ -9,6 +9,7 @@ var type = Type.RALENTI
 @onready var cadence: Timer = $Timer
 const NIVEAU_MAX := 3
 var niveau := 0
+var niveau_futur = niveau +1
 var facteur_ralenti := 0.4
 
 
@@ -69,7 +70,8 @@ func ameliorer():
 	sprit.scale *= 1.1
 	Global.gold -= prix_amelio
 	prix_amelio = 30 * niveau
-	
+	if niveau_futur != NIVEAU_MAX:
+		niveau_futur +=1
 
 
 func _input(event):
