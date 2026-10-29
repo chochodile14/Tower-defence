@@ -81,3 +81,22 @@ func _input(event):
 		else:
 			print("pas asser d'or")
 		print("niv ", niveau, " | dégâts ", degats, " | cadence ", cadence.wait_time)
+
+func texte_stat_actuelle() -> String:
+	match type:
+		Type.SOLO, Type.ZONE:
+			return "Degats: %d" % degats
+		Type.RALENTI:
+			return "Degats: %d%%" % int((1.0 - facteur_ralenti )*100)
+	return""
+
+
+func texte_stat_future() -> String:
+	if niveau >= NIVEAU_MAX:
+		return "MAX"
+	match type:
+		Type.SOLO, Type.ZONE:
+			return "Dégâts: %d" % (degats + 3)
+		Type.RALENTI:
+			return "Ralenti: %d%%" % int((1.0 - maxf(facteur_ralenti - 0.08, 0.1)) * 100)
+	return ""

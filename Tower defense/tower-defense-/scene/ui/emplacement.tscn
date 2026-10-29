@@ -33,10 +33,10 @@ text = "ArcherTower"
 
 [node name="PanelUpgrade" type="VBoxContainer" parent="." unique_id=1983342507]
 layout_mode = 0
-offset_left = 57.0
-offset_top = 4.0
-offset_right = 149.0
-offset_bottom = 116.0
+offset_left = 181.0
+offset_top = 3.0
+offset_right = 273.0
+offset_bottom = 115.0
 
 [node name="StatPre" type="Label" parent="PanelUpgrade" unique_id=638037363]
 layout_mode = 2
@@ -44,7 +44,8 @@ layout_mode = 2
 [node name="Arrow" type="Label" parent="PanelUpgrade" unique_id=1256262319]
 layout_mode = 2
 size_flags_horizontal = 4
-text = "->"
+text = "|
+V"
 
 [node name="StatAft" type="Label" parent="PanelUpgrade" unique_id=110444382]
 layout_mode = 2

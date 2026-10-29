@@ -5,6 +5,8 @@ const PRIX= {
 	Tour.Type.RALENTI : 35,
 	Tour.Type.ZONE : 40,
 }
+@onready var StatPre : Label = $PanelUpgrade/StatPre
+@onready var StatAft : Label = $PanelUpgrade/StatAft
 @onready var PanelTower : VBoxContainer = $PanelTower
 @onready var PanelUpgrade : VBoxContainer = $PanelUpgrade
 signal demande_menu(emplacement)
@@ -16,8 +18,6 @@ func _ready() -> void:
 	PanelUpgrade.visible = false
 	PanelTower.visible = false
 	pressed.connect(_on_pressed)
-	$PanelUpgrade/StatAft.text = Tour.Type.SOLO[degats]
-	$PanelUpgrade/StatPre.text = Tour.Type.SOLO[degats] +3
 	$"PanelTower/Light tower".pressed.connect(func(): _acheter(Tour.Type.RALENTI))
 	$"PanelTower/Bomber tower".pressed.connect(func(): _acheter(Tour.Type.ZONE))
 	$"PanelTower/Archer tower".pressed.connect(func(): _acheter(Tour.Type.SOLO))
@@ -30,6 +30,7 @@ func _on_pressed():
 			e.PanelTower.visible = false
 			e.PanelUpgrade.visible = false
 	if tour != null:
+		_maj_panel_upgrade()
 		PanelUpgrade.visible = not PanelUpgrade.visible
 	else:
 		PanelTower.visible = not PanelTower.visible
@@ -49,3 +50,8 @@ func _acheter(type: Tour.Type):
 	tour.global_position = global_position + size/2
 	PanelTower.visible = false
 	
+func _maj_panel_upgrade():
+	if tour == null:
+		return
+	StatAft.text = tour.texte_stat_actuelle()
+	StatPre.text = tour.texte_stat_future()
