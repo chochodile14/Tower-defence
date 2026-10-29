@@ -67,8 +67,9 @@ func ameliorer():
 			facteur_ralenti = maxf(facteur_ralenti - 0.08, 0.1)
 	cadence.wait_time *= 0.85
 	sprit.scale *= 1.1
-	prix_amelio = 30 * niveau
 	Global.gold -= prix_amelio
+	prix_amelio = 30 * niveau
+	
 
 
 func _input(event):
