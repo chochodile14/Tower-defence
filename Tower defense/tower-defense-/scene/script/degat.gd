@@ -1,5 +1,8 @@
 extends Area2D
 
+func _ready() -> void:
+	print("DEGAT position = ", global_position)
+
 func _on_body_entered(body: RigidBody2D) -> void:
 	print("DETECTE : ", body.name)
 	if body.is_in_group("ennemis") and not body.fini:

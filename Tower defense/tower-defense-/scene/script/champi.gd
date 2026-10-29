@@ -25,7 +25,8 @@ func _process(delta: float) -> void:
 	else:
 		facteur = 1.0
 	path_follow.progress += vitesse * facteur * delta
-
+	if path_follow.progress_ratio > 0.85:
+		print("CHAMPI position = ", global_position, " | ratio = ", path_follow.progress_ratio)
 
 func take_dammage(amount:int):
 	if fini:

@@ -1,0 +1,40 @@
+[gd_scene format=3 uid="uid://cksc2k0d17va"]
+
+[ext_resource type="Script" uid="uid://btdjc2c6cy8kx" path="res://scene/script/game_over.gd" id="1_ukbi7"]
+
+[node name="Game Over" type="Node2D" unique_id=68135212]
+script = ExtResource("1_ukbi7")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1883883095]
+offset_left = 426.0
+offset_top = 273.0
+offset_right = 1350.0
+offset_bottom = 563.996
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="restart" type="Button" parent="VBoxContainer" unique_id=1956347752]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_font_sizes/font_size = 60
+text = "Restart"
+
+[node name="quit" type="Button" parent="VBoxContainer" unique_id=1755829147]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_font_sizes/font_size = 60
+text = "Quit"
+
+[node name="Label" type="Label" parent="." unique_id=968287477]
+offset_left = 790.0
+offset_top = 130.0
+offset_right = 1011.0
+offset_bottom = 172.00092
+size_flags_horizontal = 6
+theme_override_font_sizes/font_size = 30
+text = "Game Over"
+
+[connection signal="pressed" from="VBoxContainer/restart" to="." method="_on_restart_pressed"]
+[connection signal="pressed" from="VBoxContainer/quit" to="." method="_on_quit_pressed"]
