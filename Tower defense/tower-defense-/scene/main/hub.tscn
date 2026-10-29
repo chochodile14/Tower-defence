@@ -1,0 +1,87 @@
+[gd_scene format=3 uid="uid://cgph1e2stjj7v"]
+
+[ext_resource type="Script" uid="uid://b5s3quffg3s8m" path="res://scene/script/hub.gd" id="1_isfw2"]
+
+[sub_resource type="Animation" id="Animation_8mxwf"]
+resource_name = "Box"
+length = 1.5666667
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VBoxContainer:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1.03, 1.27, 1.5666667),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Vector2(-928, 244), Vector2(524, 615), Vector2(1073, 745), Vector2(524, 615)]
+}
+
+[sub_resource type="Animation" id="Animation_isfw2"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("VBoxContainer:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(-928, 244)]
+}
+
+[sub_resource type="Animation" id="Animation_m7bv1"]
+resource_name = "label"
+length = 1.3333334
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dgk1r"]
+_data = {
+&"Box": SubResource("Animation_8mxwf"),
+&"RESET": SubResource("Animation_isfw2"),
+&"label": SubResource("Animation_m7bv1")
+}
+
+[node name="Hub" type="Node2D" unique_id=32403582]
+script = ExtResource("1_isfw2")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=446950942]
+offset_left = -928.0
+offset_top = 244.0
+offset_right = -4.0
+offset_bottom = 534.996
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="start" type="Button" parent="VBoxContainer" unique_id=279241595]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_font_sizes/font_size = 60
+text = "Start"
+
+[node name="quit" type="Button" parent="VBoxContainer" unique_id=1591796440]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 6
+theme_override_font_sizes/font_size = 60
+text = "Quit"
+
+[node name="Label" type="Label" parent="." unique_id=1080159161]
+offset_left = 790.0
+offset_top = 130.0
+offset_right = 1011.0
+offset_bottom = 172.00092
+size_flags_horizontal = 6
+theme_override_font_sizes/font_size = 30
+text = "Tower defense "
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=830951670]
+libraries/ = SubResource("AnimationLibrary_dgk1r")
+
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="VBoxContainer/quit" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="VBoxContainer/quit" to="." method="_on_quit_pressed"]

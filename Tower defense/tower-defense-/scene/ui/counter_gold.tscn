@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cuxu257p73hmy"]
+
+[ext_resource type="Script" uid="uid://i6qb63rkjpcs" path="res://scene/script/counter_gold.gd" id="1_0ygrq"]
+
+[node name="Counter_Gold" type="Node2D" unique_id=1109975642]
+script = ExtResource("1_0ygrq")
+
+[node name="Gold" type="Label" parent="." unique_id=738924501]
+offset_right = 90.0
+offset_bottom = 71.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 65

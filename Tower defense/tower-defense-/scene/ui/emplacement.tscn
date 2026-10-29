@@ -1,0 +1,34 @@
+[gd_scene format=3 uid="uid://ba36ypvnmd8u8"]
+
+[ext_resource type="Script" uid="uid://bqlfusnrar1xj" path="res://scene/script/emplacement.gd" id="1_7re4x"]
+
+[node name="Emplacement" type="Button" unique_id=1821445781]
+offset_right = 53.0
+offset_bottom = 53.0
+theme_override_font_sizes/font_size = 32
+text = "+"
+script = ExtResource("1_7re4x")
+
+[node name="PanelTower" type="VBoxContainer" parent="." unique_id=1909851764]
+layout_mode = 0
+offset_left = 57.0
+offset_top = 3.0
+offset_right = 143.0
+offset_bottom = 89.0
+
+[node name="Light tower" type="Button" parent="PanelTower" unique_id=559607708]
+layout_mode = 2
+size_flags_vertical = 3
+text = "LightTower"
+
+[node name="Bomber tower" type="Button" parent="PanelTower" unique_id=1081650916]
+layout_mode = 2
+size_flags_vertical = 3
+text = "BomberTower"
+
+[node name="Archer tower" type="Button" parent="PanelTower" unique_id=1727470539]
+layout_mode = 2
+size_flags_vertical = 3
+text = "ArcherTower"
+
+[connection signal="pressed" from="." to="." method="_on_pressed"]

@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://r1rrlk0gpiqb"]
+
+[ext_resource type="Script" uid="uid://h4ee7unig48e" path="res://scene/script/game.gd" id="1_8xedm"]
+[ext_resource type="PackedScene" uid="uid://cuxu257p73hmy" path="res://scene/ui/counter_gold.tscn" id="2_l2vx3"]
+[ext_resource type="PackedScene" uid="uid://bmcdqj3imi7pi" path="res://scene/map/tile_map.tscn" id="2_pw1yp"]
+[ext_resource type="PackedScene" uid="uid://ba36ypvnmd8u8" path="res://scene/ui/emplacement.tscn" id="4_82mss"]
+
+[sub_resource type="Curve2D" id="Curve2D_pw1yp"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 7, 206, 0, 0, 0, 0, 820, 234, 0, 0, 0, 0, 895, 239, 0, 0, 0, 0, 943, 290, 0, 0, 0, 0, 986, 316, 0, 0, 0, 0, 1056, 325, 0, 0, 0, 0, 1171, 333, 0, 0, 0, 0, 1925, 335)
+}
+point_count = 8
+
+[node name="game" type="Node2D" unique_id=2125341567]
+script = ExtResource("1_8xedm")
+
+[node name="TileMap" parent="." unique_id=650993531 instance=ExtResource("2_pw1yp")]
+
+[node name="Path2D" type="Path2D" parent="." unique_id=1861295305]
+curve = SubResource("Curve2D_pw1yp")
+
+[node name="PathFollow2D" type="PathFollow2D" parent="Path2D" unique_id=666400788]
+position = Vector2(7, 206)
+rotation = 0.034426738
+
+[node name="CanvasModulate" type="CanvasLayer" parent="." unique_id=341552690]
+
+[node name="Counter_Gold" parent="CanvasModulate" unique_id=1109975642 instance=ExtResource("2_l2vx3")]
+position = Vector2(1634, 100)
+
+[node name="Emplacement" parent="." unique_id=1821445781 instance=ExtResource("4_82mss")]
+offset_left = 726.0
+offset_top = 149.0
+offset_right = 779.0
+offset_bottom = 202.0
+
+[node name="Emplacement2" parent="." unique_id=831041853 instance=ExtResource("4_82mss")]
+offset_left = 516.0
+offset_top = 358.0
+offset_right = 569.0
+offset_bottom = 411.0
+
+[node name="Emplacement3" parent="." unique_id=929163011 instance=ExtResource("4_82mss")]
+offset_left = 323.0
+offset_top = 146.0
+offset_right = 376.0
+offset_bottom = 199.0
+
+[node name="Emplacement4" parent="." unique_id=26901734 instance=ExtResource("4_82mss")]
+offset_left = 52.0
+offset_top = 347.0
+offset_right = 105.0
+offset_bottom = 400.0

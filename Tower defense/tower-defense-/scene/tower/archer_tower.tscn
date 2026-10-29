@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dybvyt7wf1wkm"]
+
+[ext_resource type="Script" uid="uid://csjlmlvbjgbjj" path="res://scene/script/archer_tower.gd" id="1_odido"]
+[ext_resource type="Texture2D" uid="uid://dhs506q70ve8d" path="res://scene/asset/tower asset.jpg" id="1_xli8w"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g4v7s"]
+atlas = ExtResource("1_xli8w")
+region = Rect2(124, 292.5, 51, 55)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yf5fn"]
+radius = 372.5426
+
+[node name="archer_tower" type="Node2D" unique_id=78060425]
+position = Vector2(-349, -238)
+script = ExtResource("1_odido")
+
+[node name="Archer" type="Sprite2D" parent="." unique_id=1217239955]
+texture_filter = 1
+scale = Vector2(2.7500002, 2.7500002)
+texture = SubResource("AtlasTexture_g4v7s")
+
+[node name="Portee" type="Area2D" parent="." unique_id=196470079]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Portee" unique_id=2124589753]
+shape = SubResource("CircleShape2D_yf5fn")
+
+[node name="Timer" type="Timer" parent="." unique_id=1557325728]
+autostart = true

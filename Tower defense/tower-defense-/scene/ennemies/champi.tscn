@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://572n8f1terl"]
+
+[ext_resource type="Texture2D" uid="uid://c2ndlwdl61cjb" path="res://scene/asset/champi sans fond.png" id="1_i7xav"]
+[ext_resource type="Script" uid="uid://5uhffnkylggm" path="res://scene/script/champi.gd" id="1_whg63"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_whg63"]
+atlas = ExtResource("1_i7xav")
+region = Rect2(146, 81, 73, 81)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_goer6"]
+atlas = ExtResource("1_i7xav")
+region = Rect2(219, 81, 73, 81)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ht7f3"]
+atlas = ExtResource("1_i7xav")
+region = Rect2(292, 81, 73, 81)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8onj2"]
+atlas = ExtResource("1_i7xav")
+region = Rect2(365, 81, 73, 81)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tr71u"]
+atlas = ExtResource("1_i7xav")
+region = Rect2(438, 81, 73, 81)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0y6m"]
+atlas = ExtResource("1_i7xav")
+region = Rect2(511, 81, 73, 81)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_whg63")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_goer6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ht7f3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8onj2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tr71u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o0y6m")
+}],
+"loop": 1,
+"name": &"walk",
+"speed": 7.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_yf5fn"]
+radius = 47.0
+height = 130.0
+
+[node name="champi" type="RigidBody2D" unique_id=650025353]
+gravity_scale = 0.0
+script = ExtResource("1_whg63")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1015247942]
+texture_filter = 1
+position = Vector2(64.00001, 65)
+rotation = -3.1415925
+scale = Vector2(2.0958905, -2.0958905)
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"walk"
+frame = 3
+frame_progress = 0.33723077
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=912850923]
+position = Vector2(80, 79)
+shape = SubResource("CapsuleShape2D_yf5fn")
