@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://r1rrlk0gpiqb"]
 
 [ext_resource type="Script" uid="uid://h4ee7unig48e" path="res://scene/script/game.gd" id="1_8xedm"]
+[ext_resource type="PackedScene" uid="uid://dlmwpp8jet0us" path="res://scene/game/life.tscn" id="2_0tn4t"]
 [ext_resource type="PackedScene" uid="uid://cuxu257p73hmy" path="res://scene/ui/counter_gold.tscn" id="2_l2vx3"]
 [ext_resource type="PackedScene" uid="uid://bmcdqj3imi7pi" path="res://scene/map/tile_map.tscn" id="2_pw1yp"]
 [ext_resource type="PackedScene" uid="uid://ba36ypvnmd8u8" path="res://scene/ui/emplacement.tscn" id="4_82mss"]
@@ -29,6 +30,9 @@ rotation = 0.034426738
 [node name="Counter_Gold" parent="CanvasModulate" unique_id=1109975642 instance=ExtResource("2_l2vx3")]
 position = Vector2(1634, 100)
 
+[node name="life" parent="CanvasModulate" unique_id=2110105874 instance=ExtResource("2_0tn4t")]
+position = Vector2(1608, 544)
+
 [node name="Emplacement" parent="." unique_id=1821445781 instance=ExtResource("4_82mss")]
 offset_left = 726.0
 offset_top = 149.0
@@ -54,4 +58,4 @@ offset_right = 105.0
 offset_bottom = 400.0
 
 [node name="Degat" parent="." unique_id=1010962683 instance=ExtResource("5_tr56l")]
-position = Vector2(1891, 372)
+position = Vector2(1869, 372)
