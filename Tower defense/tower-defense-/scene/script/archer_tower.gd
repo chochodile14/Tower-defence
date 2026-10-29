@@ -8,7 +8,7 @@ var type = Type.RALENTI
 @onready var portee: Area2D = $Portee
 @onready var cadence: Timer = $Timer
 const NIVEAU_MAX := 3
-var niveau := 1
+var niveau := 0
 var facteur_ralenti := 0.4
 
 

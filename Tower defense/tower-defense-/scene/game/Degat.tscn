@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://d2jxu77ls6o8t"]
+
+[ext_resource type="Script" uid="uid://bky2270m1x7uw" path="res://scene/script/degat.gd" id="1_p31wi"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_g4v7s"]
+radius = 57.245087
+
+[node name="Degat" type="Area2D" unique_id=1010962683]
+script = ExtResource("1_p31wi")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1573312607]
+shape = SubResource("CircleShape2D_g4v7s")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://cuxu257p73hmy" path="res://scene/ui/counter_gold.tscn" id="2_l2vx3"]
 [ext_resource type="PackedScene" uid="uid://bmcdqj3imi7pi" path="res://scene/map/tile_map.tscn" id="2_pw1yp"]
 [ext_resource type="PackedScene" uid="uid://ba36ypvnmd8u8" path="res://scene/ui/emplacement.tscn" id="4_82mss"]
+[ext_resource type="PackedScene" uid="uid://d2jxu77ls6o8t" path="res://scene/game/Degat.tscn" id="5_tr56l"]
 
 [sub_resource type="Curve2D" id="Curve2D_pw1yp"]
 _data = {
@@ -51,3 +52,6 @@ offset_left = 52.0
 offset_top = 347.0
 offset_right = 105.0
 offset_bottom = 400.0
+
+[node name="Degat" parent="." unique_id=1010962683 instance=ExtResource("5_tr56l")]
+position = Vector2(1891, 372)

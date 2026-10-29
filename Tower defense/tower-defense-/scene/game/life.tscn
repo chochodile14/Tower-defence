@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dlmwpp8jet0us"]
+
+[ext_resource type="Script" uid="uid://cpka8ixaswxok" path="res://scene/script/life.gd" id="1_7keki"]
+
+[node name="life" type="Node2D" unique_id=2110105874]
+script = ExtResource("1_7keki")
+
+[node name="Label" type="Label" parent="." unique_id=2043602576]
+offset_right = 40.0
+offset_bottom = 23.0
