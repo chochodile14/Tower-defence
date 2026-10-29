@@ -1,5 +1,6 @@
 class_name Tour
 extends Node2D
+var prix_amelio = 10
 enum Type {SOLO,ZONE,RALENTI}
 var type = Type.RALENTI
 @export var degats := 5
@@ -31,10 +32,8 @@ func _tirer() -> void:
 		return
 	match type:
 		Type.SOLO:
-			degats = 7
 			cible[0].take_dammage(degats)
 		Type.ZONE:
-			degats = 5
 			for c in cible:
 				c.take_dammage(degats)
 		Type.RALENTI:
@@ -55,8 +54,7 @@ func _enemis_en_portee():
 #Fonction d'amelio
 #-------------------------------------------------------------------------------
 
-func prix_amelioration() -> int:
-	return 30 * niveau
+
 
 func ameliorer():
 	if niveau >= NIVEAU_MAX :
@@ -69,8 +67,14 @@ func ameliorer():
 			facteur_ralenti = maxf(facteur_ralenti - 0.08, 0.1)
 	cadence.wait_time *= 0.85
 	sprit.scale *= 1.1
-		
+	prix_amelio = 30 * niveau
+	Global.gold -= prix_amelio
+
+
 func _input(event):
 	if event.is_action_pressed("ui_accept"):
-		ameliorer()
+		if Global.gold >= prix_amelio :
+			ameliorer()
+		else:
+			print("pas asser d'or")
 		print("niv ", niveau, " | dégâts ", degats, " | cadence ", cadence.wait_time)
