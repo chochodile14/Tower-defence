@@ -7,6 +7,7 @@ const PRIX= {
 }
 @onready var StatPre : Label = $PanelUpgrade/StatPre
 @onready var StatAft : Label = $PanelUpgrade/StatAft
+@onready var PrixAmelio : Label = $PanelUpgrade/PrixAmelio
 @onready var PanelTower : VBoxContainer = $PanelTower
 @onready var PanelUpgrade : VBoxContainer = $PanelUpgrade
 signal demande_menu(emplacement)
@@ -55,6 +56,7 @@ func _maj_panel_upgrade():
 		return
 	StatAft.text = tour.texte_stat_future()
 	StatPre.text = tour.texte_stat_actuelle()
+	PrixAmelio.text = tour.prix_futur()
 
 
 func _on_amelio_pressed() -> void:

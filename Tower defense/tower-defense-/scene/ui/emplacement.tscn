@@ -56,6 +56,9 @@ size_flags_horizontal = 4
 size_flags_vertical = 3
 text = "Upgrad"
 
+[node name="PrixAmelio" type="Label" parent="PanelUpgrade" unique_id=1857578011]
+layout_mode = 2
+
 [connection signal="pressed" from="." to="." method="_on_pressed"]
 [connection signal="pressed" from="PanelUpgrade/Amelio" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="PanelUpgrade/Amelio" to="." method="_on_amelio_pressed"]
