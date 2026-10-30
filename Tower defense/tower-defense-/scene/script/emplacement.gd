@@ -53,5 +53,5 @@ func _acheter(type: Tour.Type):
 func _maj_panel_upgrade():
 	if tour == null:
 		return
-	StatAft.text = tour.texte_stat_actuelle()
-	StatPre.text = tour.texte_stat_future()
+	StatAft.text = tour.texte_stat_future()
+	StatPre.text = tour.texte_stat_actuelle()
