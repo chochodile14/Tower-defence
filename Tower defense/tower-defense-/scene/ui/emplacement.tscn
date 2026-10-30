@@ -50,10 +50,12 @@ V"
 [node name="StatAft" type="Label" parent="PanelUpgrade" unique_id=110444382]
 layout_mode = 2
 
-[node name="Button" type="Button" parent="PanelUpgrade" unique_id=1307266078]
+[node name="Amelio" type="Button" parent="PanelUpgrade" unique_id=1307266078]
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 3
 text = "Upgrad"
 
 [connection signal="pressed" from="." to="." method="_on_pressed"]
+[connection signal="pressed" from="PanelUpgrade/Amelio" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="PanelUpgrade/Amelio" to="." method="_on_amelio_pressed"]

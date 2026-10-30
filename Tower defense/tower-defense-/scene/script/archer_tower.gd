@@ -74,8 +74,7 @@ func ameliorer():
 		niveau_futur +=1
 
 
-func _input(event):
-	if event.is_action_pressed("ui_accept"):
+func _action_amelio():
 		if Global.gold >= prix_amelio :
 			ameliorer()
 		else:

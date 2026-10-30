@@ -55,3 +55,7 @@ func _maj_panel_upgrade():
 		return
 	StatAft.text = tour.texte_stat_future()
 	StatPre.text = tour.texte_stat_actuelle()
+
+
+func _on_amelio_pressed() -> void:
+	tour._action_amelio()
