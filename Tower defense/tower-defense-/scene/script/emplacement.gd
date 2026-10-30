@@ -56,8 +56,9 @@ func _maj_panel_upgrade():
 		return
 	StatAft.text = tour.texte_stat_future()
 	StatPre.text = tour.texte_stat_actuelle()
-	PrixAmelio.text = tour.prix_futur()
+	PrixAmelio.text = tour.texte_prix()
 
 
 func _on_amelio_pressed() -> void:
 	tour._action_amelio()
+	_maj_panel_upgrade()

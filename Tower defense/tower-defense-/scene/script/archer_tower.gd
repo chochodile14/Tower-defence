@@ -69,7 +69,7 @@ func ameliorer():
 	cadence.wait_time *= 0.85
 	sprit.scale *= 1.1
 	Global.gold -= prix_amelio
-	prix_futur()
+	prix_amelio = 30 * niveau
 	if niveau_futur != NIVEAU_MAX:
 		niveau_futur +=1
 
@@ -101,5 +101,7 @@ func texte_stat_future() -> String:
 	return ""
 
 
-func prix_futur():
-	prix_amelio = 30 * niveau
+func texte_prix() -> String:
+	if niveau >= NIVEAU_MAX:
+		return ""
+	return "Prix: %d" % prix_amelio
