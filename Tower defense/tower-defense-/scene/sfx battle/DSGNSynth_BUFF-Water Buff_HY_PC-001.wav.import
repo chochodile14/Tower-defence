@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d18g4cub4t0j5"
+path="res://.godot/imported/DSGNSynth_BUFF-Water Buff_HY_PC-001.wav-f62b56d9b2ca1eda24b600dcf8b5d737.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Water Buff_HY_PC-001.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Water Buff_HY_PC-001.wav-f62b56d9b2ca1eda24b600dcf8b5d737.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

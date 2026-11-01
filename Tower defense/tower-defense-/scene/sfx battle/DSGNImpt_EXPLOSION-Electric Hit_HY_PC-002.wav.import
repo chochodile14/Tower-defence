@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bcwfmjvpmbb3r"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Electric Hit_HY_PC-002.wav-3d8c869e2bf8648fafdf3e50e11d1ca0.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Electric Hit_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Electric Hit_HY_PC-002.wav-3d8c869e2bf8648fafdf3e50e11d1ca0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

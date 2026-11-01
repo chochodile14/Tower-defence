@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7ircg08averg"
+path="res://.godot/imported/DSGNTonl_USABLE-Coin Zap_HY_PC-006.wav-298e00e06d3d4e034118736b0f66e387.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_USABLE-Coin Zap_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNTonl_USABLE-Coin Zap_HY_PC-006.wav-298e00e06d3d4e034118736b0f66e387.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

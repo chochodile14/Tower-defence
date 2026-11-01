@@ -1,5 +1,6 @@
 extends Node2D
-
+func _ready() -> void:
+	UiSfx.jouer("defaite")
 
 
 func _on_restart_pressed() -> void:

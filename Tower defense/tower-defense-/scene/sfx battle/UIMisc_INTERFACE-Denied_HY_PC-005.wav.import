@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bimm6d7b1faye"
+path="res://.godot/imported/UIMisc_INTERFACE-Denied_HY_PC-005.wav-49b6040c98e95f547d4c37d5c2359595.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/UIMisc_INTERFACE-Denied_HY_PC-005.wav"
+dest_files=["res://.godot/imported/UIMisc_INTERFACE-Denied_HY_PC-005.wav-49b6040c98e95f547d4c37d5c2359595.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

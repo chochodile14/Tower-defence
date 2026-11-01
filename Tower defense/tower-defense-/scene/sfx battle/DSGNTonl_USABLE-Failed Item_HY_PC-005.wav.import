@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwb2rncl0th7v"
+path="res://.godot/imported/DSGNTonl_USABLE-Failed Item_HY_PC-005.wav-fec6b80f660f18b53d0f65216628a912.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_USABLE-Failed Item_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNTonl_USABLE-Failed Item_HY_PC-005.wav-fec6b80f660f18b53d0f65216628a912.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

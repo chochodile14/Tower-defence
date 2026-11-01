@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://xnjsyfdg11kp"
+path="res://.godot/imported/MAGAngl_BUFF-Metallic Plus Damage_HY_PC-003.wav-e9b1253acc5945460a0dc6c459b8bd37.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGAngl_BUFF-Metallic Plus Damage_HY_PC-003.wav"
+dest_files=["res://.godot/imported/MAGAngl_BUFF-Metallic Plus Damage_HY_PC-003.wav-e9b1253acc5945460a0dc6c459b8bd37.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

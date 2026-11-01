@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://8la55jouml7i"
+path="res://.godot/imported/DSGNSynth_BUFF-Bonus Max Shield_HY_PC-006.wav-7d6b3de779c6d5318808971c99d6d693.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Bonus Max Shield_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Bonus Max Shield_HY_PC-006.wav-7d6b3de779c6d5318808971c99d6d693.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://1ak052of1qlq"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Scorched_HY_PC-002.wav-54343eeae3bca52c6c07ab71cfc7087e.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Scorched_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Scorched_HY_PC-002.wav-54343eeae3bca52c6c07ab71cfc7087e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

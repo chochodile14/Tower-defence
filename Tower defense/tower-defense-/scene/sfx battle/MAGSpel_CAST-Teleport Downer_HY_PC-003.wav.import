@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://jnglisugc7hp"
+path="res://.godot/imported/MAGSpel_CAST-Teleport Downer_HY_PC-003.wav-bb912e325c4ff887e46cde73c0c786f0.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Teleport Downer_HY_PC-003.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Teleport Downer_HY_PC-003.wav-bb912e325c4ff887e46cde73c0c786f0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdrneai1uuwvu"
+path="res://.godot/imported/WHSH_MOVEMENT-Wind Shaker_HY_PC-002.wav-3559c9a89bb37955b030e5aede49f93a.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/WHSH_MOVEMENT-Wind Shaker_HY_PC-002.wav"
+dest_files=["res://.godot/imported/WHSH_MOVEMENT-Wind Shaker_HY_PC-002.wav-3559c9a89bb37955b030e5aede49f93a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

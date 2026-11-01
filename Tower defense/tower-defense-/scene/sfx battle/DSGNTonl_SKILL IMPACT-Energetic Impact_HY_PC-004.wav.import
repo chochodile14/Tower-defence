@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://k24m8kie86na"
+path="res://.godot/imported/DSGNTonl_SKILL IMPACT-Energetic Impact_HY_PC-004.wav-e69d2691f7fd1ce5dbdf35688953e88b.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_SKILL IMPACT-Energetic Impact_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNTonl_SKILL IMPACT-Energetic Impact_HY_PC-004.wav-e69d2691f7fd1ce5dbdf35688953e88b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

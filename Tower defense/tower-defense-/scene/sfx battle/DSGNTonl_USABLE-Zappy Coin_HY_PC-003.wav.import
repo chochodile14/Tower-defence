@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cdjjfq6yi1uo6"
+path="res://.godot/imported/DSGNTonl_USABLE-Zappy Coin_HY_PC-003.wav-07317c3d2b8ba8a7e93e7cb05df944d8.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_USABLE-Zappy Coin_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNTonl_USABLE-Zappy Coin_HY_PC-003.wav-07317c3d2b8ba8a7e93e7cb05df944d8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

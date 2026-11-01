@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7xkf5xry2pcb"
+path="res://.godot/imported/MAGSpel_CAST-Pew Laser_HY_PC-003.wav-24641bc73a2bdfd0aa16f88a715185b6.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Pew Laser_HY_PC-003.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Pew Laser_HY_PC-003.wav-24641bc73a2bdfd0aa16f88a715185b6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

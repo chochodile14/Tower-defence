@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cks5j6p4inuag"
+path="res://.godot/imported/MAGSpel_CAST-Panicked_HY_PC-004.wav-dd594da23045562686072ebcc6695bc1.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Panicked_HY_PC-004.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Panicked_HY_PC-004.wav-dd594da23045562686072ebcc6695bc1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://djtvnr0bjt4f8"
+path="res://.godot/imported/WHSH_MOVEMENT-Wind Sweep Swish_HY_PC-005.wav-e000bb715deffc8ace04972fa513c5df.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/WHSH_MOVEMENT-Wind Sweep Swish_HY_PC-005.wav"
+dest_files=["res://.godot/imported/WHSH_MOVEMENT-Wind Sweep Swish_HY_PC-005.wav-e000bb715deffc8ace04972fa513c5df.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

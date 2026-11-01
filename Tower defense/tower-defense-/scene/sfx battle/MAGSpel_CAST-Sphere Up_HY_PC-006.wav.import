@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnh5glujuc3os"
+path="res://.godot/imported/MAGSpel_CAST-Sphere Up_HY_PC-006.wav-1142c79d5d19a208507646a3d3d55dd0.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Sphere Up_HY_PC-006.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Sphere Up_HY_PC-006.wav-1142c79d5d19a208507646a3d3d55dd0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

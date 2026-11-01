@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://biciyx8g8jpld"
+path="res://.godot/imported/WHSH_MOVEMENT-Simple Whoosh_HY_PC-005.wav-25a687b396e5398dcb96f686b0617505.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/WHSH_MOVEMENT-Simple Whoosh_HY_PC-005.wav"
+dest_files=["res://.godot/imported/WHSH_MOVEMENT-Simple Whoosh_HY_PC-005.wav-25a687b396e5398dcb96f686b0617505.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

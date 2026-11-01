@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cy1il8dbnfoa5"
+path="res://.godot/imported/DSGNSynth_BUFF-Higher Hit Chance_HY_PC-006.wav-60583fb8c27c6a28e2a580949eb068c1.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Higher Hit Chance_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Higher Hit Chance_HY_PC-006.wav-60583fb8c27c6a28e2a580949eb068c1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

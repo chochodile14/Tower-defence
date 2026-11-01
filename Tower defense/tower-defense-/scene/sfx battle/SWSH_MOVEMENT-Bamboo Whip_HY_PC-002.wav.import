@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://babuac5nl0cnh"
+path="res://.godot/imported/SWSH_MOVEMENT-Bamboo Whip_HY_PC-002.wav-73a26a568afb52b416f210457373e204.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/SWSH_MOVEMENT-Bamboo Whip_HY_PC-002.wav"
+dest_files=["res://.godot/imported/SWSH_MOVEMENT-Bamboo Whip_HY_PC-002.wav-73a26a568afb52b416f210457373e204.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ctt6e8jtlg0pa"
+path="res://.godot/imported/FGHTImpt_MELEE-Clap Slapper_HY_PC-006.wav-55f1d32c6132c2f0ea54d09730511e7a.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/FGHTImpt_MELEE-Clap Slapper_HY_PC-006.wav"
+dest_files=["res://.godot/imported/FGHTImpt_MELEE-Clap Slapper_HY_PC-006.wav-55f1d32c6132c2f0ea54d09730511e7a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

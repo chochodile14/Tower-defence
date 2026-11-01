@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bffsda6rasc5a"
+path="res://.godot/imported/DSGNMisc_HIT-Laser Electric Zap_HY_PC-004.wav-6b7bbc5ffd6f731b2961ce1c533926e4.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_HIT-Laser Electric Zap_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNMisc_HIT-Laser Electric Zap_HY_PC-004.wav-6b7bbc5ffd6f731b2961ce1c533926e4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

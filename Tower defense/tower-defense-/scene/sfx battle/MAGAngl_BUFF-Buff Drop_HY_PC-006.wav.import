@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bvtsrg7t3y4dg"
+path="res://.godot/imported/MAGAngl_BUFF-Buff Drop_HY_PC-006.wav-9182019592e81ebd721b24ae55da08cc.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGAngl_BUFF-Buff Drop_HY_PC-006.wav"
+dest_files=["res://.godot/imported/MAGAngl_BUFF-Buff Drop_HY_PC-006.wav-9182019592e81ebd721b24ae55da08cc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

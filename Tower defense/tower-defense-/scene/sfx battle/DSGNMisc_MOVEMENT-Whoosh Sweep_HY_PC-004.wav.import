@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ce7kdjrnj04ub"
+path="res://.godot/imported/DSGNMisc_MOVEMENT-Whoosh Sweep_HY_PC-004.wav-b2fce3f6fd4c1232aaa303a030bef2b4.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_MOVEMENT-Whoosh Sweep_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNMisc_MOVEMENT-Whoosh Sweep_HY_PC-004.wav-b2fce3f6fd4c1232aaa303a030bef2b4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

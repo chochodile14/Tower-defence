@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bj432y35gsdbk"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Forced Shutdown_HY_PC-004.wav-f37ac44e9b008f0054d6579b54a311c1.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Forced Shutdown_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Forced Shutdown_HY_PC-004.wav-f37ac44e9b008f0054d6579b54a311c1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

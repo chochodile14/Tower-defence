@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dn5mk35oghvb4"
+path="res://.godot/imported/DSGNTonl_SKILL IMPACT-Swoosh Grain_HY_PC-003.wav-e837502c0cee48d5144bcd0c9e23206a.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_SKILL IMPACT-Swoosh Grain_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNTonl_SKILL IMPACT-Swoosh Grain_HY_PC-003.wav-e837502c0cee48d5144bcd0c9e23206a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

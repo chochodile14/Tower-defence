@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://rxwqkxyfa0bg"
+path="res://.godot/imported/DSGNMisc_SKILL IMPACT-Whimsimpact_HY_PC-003.wav-35897ca5a5d21d9d02a63e5cd20f30ac.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_SKILL IMPACT-Whimsimpact_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNMisc_SKILL IMPACT-Whimsimpact_HY_PC-003.wav-35897ca5a5d21d9d02a63e5cd20f30ac.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

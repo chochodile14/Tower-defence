@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8vsjk60sgffb"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Flare Nova_HY_PC-004.wav-0e6beda2aa1eff34f4f5c37d20f3f4cb.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Flare Nova_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Flare Nova_HY_PC-004.wav-0e6beda2aa1eff34f4f5c37d20f3f4cb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://plb57gbq6n7l"
+path="res://.godot/imported/WHSH_MOVEMENT-Sand Swipe_HY_PC-006.wav-355c9f73078f196b0cf3531bb3a0da6f.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/WHSH_MOVEMENT-Sand Swipe_HY_PC-006.wav"
+dest_files=["res://.godot/imported/WHSH_MOVEMENT-Sand Swipe_HY_PC-006.wav-355c9f73078f196b0cf3531bb3a0da6f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

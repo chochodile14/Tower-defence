@@ -42,9 +42,11 @@ func _acheter(type: Tour.Type):
 		return
 	var prix = PRIX[type]
 	if Global.gold < prix :
+		UiSfx.jouer("refus")
 		print("pas asser d'or")
 		return
 	Global.gold -= prix
+	UiSfx.jouer("achat")
 	tour = TOUR_SCENE.instantiate()
 	tour.type = type
 	get_parent().add_child(tour)

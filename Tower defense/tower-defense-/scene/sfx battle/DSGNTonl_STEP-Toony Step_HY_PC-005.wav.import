@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://84oi1a6uvwwv"
+path="res://.godot/imported/DSGNTonl_STEP-Toony Step_HY_PC-005.wav-2fc0886568e31528e9feec0a8ecf792f.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_STEP-Toony Step_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNTonl_STEP-Toony Step_HY_PC-005.wav-2fc0886568e31528e9feec0a8ecf792f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

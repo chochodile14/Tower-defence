@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c4sjjv8rq8gha"
+path="res://.godot/imported/DSGNTonl_USABLE-Retro Zap_HY_PC-002.wav-2089b899199f473463ffa250c5386ebc.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_USABLE-Retro Zap_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNTonl_USABLE-Retro Zap_HY_PC-002.wav-2089b899199f473463ffa250c5386ebc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

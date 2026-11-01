@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dmfcgqil16gib"
+path="res://.godot/imported/DSGNMisc_SKILL IMPACT-Crunchy Energy_HY_PC-005.wav-f9b68186dd927502b5ad6d0c8b7bf1a5.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_SKILL IMPACT-Crunchy Energy_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNMisc_SKILL IMPACT-Crunchy Energy_HY_PC-005.wav-f9b68186dd927502b5ad6d0c8b7bf1a5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://brdamxful2ojy"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Cruncher_HY_PC-005.wav-e9eb65002e2548ec1794ce11c0c933c8.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Cruncher_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Cruncher_HY_PC-005.wav-e9eb65002e2548ec1794ce11c0c933c8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

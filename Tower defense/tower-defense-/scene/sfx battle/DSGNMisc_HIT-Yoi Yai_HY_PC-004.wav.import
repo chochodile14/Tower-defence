@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdnq11ky6x8qg"
+path="res://.godot/imported/DSGNMisc_HIT-Yoi Yai_HY_PC-004.wav-b81954ac4e7f801f26cf5e5b6eb31cfe.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_HIT-Yoi Yai_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNMisc_HIT-Yoi Yai_HY_PC-004.wav-b81954ac4e7f801f26cf5e5b6eb31cfe.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

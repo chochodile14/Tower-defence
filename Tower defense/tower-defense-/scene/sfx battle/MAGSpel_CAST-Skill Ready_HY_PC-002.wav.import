@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bdldgau5hafgm"
+path="res://.godot/imported/MAGSpel_CAST-Skill Ready_HY_PC-002.wav-4898ac35f92cbac87de42d7ce3136b77.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Skill Ready_HY_PC-002.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Skill Ready_HY_PC-002.wav-4898ac35f92cbac87de42d7ce3136b77.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

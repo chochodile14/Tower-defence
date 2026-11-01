@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c1rfrh5fa48cr"
+path="res://.godot/imported/DSGNTonl_MOVEMENT-Arcane Slap_HY_PC-004.wav-91eb9310e13b5db908007926e377b096.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_MOVEMENT-Arcane Slap_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNTonl_MOVEMENT-Arcane Slap_HY_PC-004.wav-91eb9310e13b5db908007926e377b096.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://5yds0kq7fvhd"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Exploding Movement_HY_PC-005.wav-ddfe77d10ed8070916704d336b099c87.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Exploding Movement_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Exploding Movement_HY_PC-005.wav-ddfe77d10ed8070916704d336b099c87.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

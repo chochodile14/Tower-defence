@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dv8dkndh320q5"
+path="res://.godot/imported/WHSH_MOVEMENT-Windy Swipy_HY_PC-004.wav-08c30885afb94081df0edd05848f8d97.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/WHSH_MOVEMENT-Windy Swipy_HY_PC-004.wav"
+dest_files=["res://.godot/imported/WHSH_MOVEMENT-Windy Swipy_HY_PC-004.wav-08c30885afb94081df0edd05848f8d97.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://l7fqmn34o7oo"
+path="res://.godot/imported/MAGSpel_CAST-Tweety Cast_HY_PC-006.wav-a8d4c0ce0b092db1df791f9ca0ee2ac5.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Tweety Cast_HY_PC-006.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Tweety Cast_HY_PC-006.wav-a8d4c0ce0b092db1df791f9ca0ee2ac5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

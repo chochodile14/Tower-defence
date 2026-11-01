@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://uhnfb8pfow7o"
+path="res://.godot/imported/MAGSpel_CAST-Weirdness_HY_PC-003.wav-d507c9ea58bb288d04bb30530a25c070.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Weirdness_HY_PC-003.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Weirdness_HY_PC-003.wav-d507c9ea58bb288d04bb30530a25c070.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

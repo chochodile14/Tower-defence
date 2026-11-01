@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b22xx26x2y586"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Sand Impact_HY_PC-004.wav-74e6f4e5308aa85b2230ed038b3b12b4.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Sand Impact_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Sand Impact_HY_PC-004.wav-74e6f4e5308aa85b2230ed038b3b12b4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

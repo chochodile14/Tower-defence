@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://ba36ypvnmd8u8"]
 
 [ext_resource type="Script" uid="uid://bqlfusnrar1xj" path="res://scene/script/emplacement.gd" id="1_7re4x"]
+[ext_resource type="Script" path="res://scene/script/panel_fond.gd" id="2_fond"]
 
 [node name="Emplacement" type="Button" unique_id=1821445781]
 offset_right = 53.0
@@ -10,11 +11,13 @@ text = "+"
 script = ExtResource("1_7re4x")
 
 [node name="PanelTower" type="VBoxContainer" parent="." unique_id=1909851764]
+z_index = 10
 layout_mode = 0
-offset_left = 57.0
+offset_left = 72.0
 offset_top = 3.0
-offset_right = 143.0
+offset_right = 158.0
 offset_bottom = 89.0
+script = ExtResource("2_fond")
 
 [node name="Light tower" type="Button" parent="PanelTower" unique_id=559607708]
 layout_mode = 2
@@ -32,11 +35,13 @@ size_flags_vertical = 3
 text = "ArcherTower"
 
 [node name="PanelUpgrade" type="VBoxContainer" parent="." unique_id=1983342507]
+z_index = 10
 layout_mode = 0
 offset_left = 181.0
 offset_top = 3.0
 offset_right = 273.0
 offset_bottom = 115.0
+script = ExtResource("2_fond")
 
 [node name="StatPre" type="Label" parent="PanelUpgrade" unique_id=638037363]
 layout_mode = 2
@@ -54,11 +59,11 @@ layout_mode = 2
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 3
-text = "Upgrad"
+text = "Upgrade"
 
 [node name="PrixAmelio" type="Label" parent="PanelUpgrade" unique_id=1857578011]
 layout_mode = 2
+theme_type_variation = &"GoldLabel"
 
 [connection signal="pressed" from="." to="." method="_on_pressed"]
-[connection signal="pressed" from="PanelUpgrade/Amelio" to="." method="_on_button_pressed"]
 [connection signal="pressed" from="PanelUpgrade/Amelio" to="." method="_on_amelio_pressed"]

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://mkp3x6uew8xs"
+path="res://.godot/imported/SWSH_MOVEMENT-Bubbly Resonance_HY_PC-001.wav-dc02999e7d3db8c0ce10fcfc126c20bb.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/SWSH_MOVEMENT-Bubbly Resonance_HY_PC-001.wav"
+dest_files=["res://.godot/imported/SWSH_MOVEMENT-Bubbly Resonance_HY_PC-001.wav-dc02999e7d3db8c0ce10fcfc126c20bb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dttkdgh2r35qg"
+path="res://.godot/imported/MAGAngl_BUFF-Buff Pickup_HY_PC-005.wav-977829b5a06b08cedb23ffa3de0422e7.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGAngl_BUFF-Buff Pickup_HY_PC-005.wav"
+dest_files=["res://.godot/imported/MAGAngl_BUFF-Buff Pickup_HY_PC-005.wav-977829b5a06b08cedb23ffa3de0422e7.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

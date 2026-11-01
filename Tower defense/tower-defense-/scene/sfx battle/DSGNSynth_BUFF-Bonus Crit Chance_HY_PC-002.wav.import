@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dqt0ngay36idg"
+path="res://.godot/imported/DSGNSynth_BUFF-Bonus Crit Chance_HY_PC-002.wav-6e0c605012ed199ebd8c4f8fe210e50b.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Bonus Crit Chance_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Bonus Crit Chance_HY_PC-002.wav-6e0c605012ed199ebd8c4f8fe210e50b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

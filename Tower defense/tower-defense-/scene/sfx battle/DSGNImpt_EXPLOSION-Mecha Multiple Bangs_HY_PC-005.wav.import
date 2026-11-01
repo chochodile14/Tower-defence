@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ny78qiarmw58"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Mecha Multiple Bangs_HY_PC-005.wav-3912b3b4730947357d831f85e90fe861.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Mecha Multiple Bangs_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Mecha Multiple Bangs_HY_PC-005.wav-3912b3b4730947357d831f85e90fe861.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

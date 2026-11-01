@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dbqv4bu14tewe"
+path="res://.godot/imported/WHSH_MOVEMENT-Bubble Laser Swish_HY_PC-002.wav-f68c95b8955dc7c5c4a24656b6c4c473.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/WHSH_MOVEMENT-Bubble Laser Swish_HY_PC-002.wav"
+dest_files=["res://.godot/imported/WHSH_MOVEMENT-Bubble Laser Swish_HY_PC-002.wav-f68c95b8955dc7c5c4a24656b6c4c473.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

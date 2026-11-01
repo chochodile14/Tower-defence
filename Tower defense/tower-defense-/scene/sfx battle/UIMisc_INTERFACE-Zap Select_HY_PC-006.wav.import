@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d02is3gnvqj5y"
+path="res://.godot/imported/UIMisc_INTERFACE-Zap Select_HY_PC-006.wav-e3800858d3e2e214454a4afa8be73014.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/UIMisc_INTERFACE-Zap Select_HY_PC-006.wav"
+dest_files=["res://.godot/imported/UIMisc_INTERFACE-Zap Select_HY_PC-006.wav-e3800858d3e2e214454a4afa8be73014.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

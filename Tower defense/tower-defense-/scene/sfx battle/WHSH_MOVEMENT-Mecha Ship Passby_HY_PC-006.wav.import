@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b61fnyyfpuaow"
+path="res://.godot/imported/WHSH_MOVEMENT-Mecha Ship Passby_HY_PC-006.wav-2753865e154f9762caf46d3771e12164.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/WHSH_MOVEMENT-Mecha Ship Passby_HY_PC-006.wav"
+dest_files=["res://.godot/imported/WHSH_MOVEMENT-Mecha Ship Passby_HY_PC-006.wav-2753865e154f9762caf46d3771e12164.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

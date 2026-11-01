@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3nq10ebvk1j1"
+path="res://.godot/imported/SWSH_MOVEMENT-Reso Swish_HY_PC-002.wav-87d253c58e349912b38b9bffde0c3ad0.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/SWSH_MOVEMENT-Reso Swish_HY_PC-002.wav"
+dest_files=["res://.godot/imported/SWSH_MOVEMENT-Reso Swish_HY_PC-002.wav-87d253c58e349912b38b9bffde0c3ad0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

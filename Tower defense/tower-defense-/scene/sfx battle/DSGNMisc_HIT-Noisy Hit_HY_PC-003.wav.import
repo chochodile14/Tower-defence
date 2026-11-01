@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b1yey20eapl7i"
+path="res://.godot/imported/DSGNMisc_HIT-Noisy Hit_HY_PC-003.wav-5135c498ca9053cd15249e2b5c8b69b1.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_HIT-Noisy Hit_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNMisc_HIT-Noisy Hit_HY_PC-003.wav-5135c498ca9053cd15249e2b5c8b69b1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

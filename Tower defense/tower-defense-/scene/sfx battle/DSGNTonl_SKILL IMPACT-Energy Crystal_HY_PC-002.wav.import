@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2xnwwki8b2cn"
+path="res://.godot/imported/DSGNTonl_SKILL IMPACT-Energy Crystal_HY_PC-002.wav-5ad243604931bd320d65b874045719a8.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_SKILL IMPACT-Energy Crystal_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNTonl_SKILL IMPACT-Energy Crystal_HY_PC-002.wav-5ad243604931bd320d65b874045719a8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

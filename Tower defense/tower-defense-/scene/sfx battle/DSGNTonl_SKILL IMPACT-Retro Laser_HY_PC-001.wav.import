@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://iq44caeqgt5b"
+path="res://.godot/imported/DSGNTonl_SKILL IMPACT-Retro Laser_HY_PC-001.wav-09f6cebf4dd173833615f2fb2ae38690.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_SKILL IMPACT-Retro Laser_HY_PC-001.wav"
+dest_files=["res://.godot/imported/DSGNTonl_SKILL IMPACT-Retro Laser_HY_PC-001.wav-09f6cebf4dd173833615f2fb2ae38690.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

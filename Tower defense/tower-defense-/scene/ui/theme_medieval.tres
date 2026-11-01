@@ -1,0 +1,193 @@
+[gd_resource type="Theme" format=3]
+
+[ext_resource type="FontFile" path="res://scene/ui/fonts/Cinzel-Bold.ttf" id="1_cinzel"]
+[ext_resource type="FontFile" path="res://scene/ui/fonts/CinzelDecorative-Bold.ttf" id="2_deco"]
+
+[sub_resource type="StyleBoxFlat" id="btn_normal"]
+content_margin_left = 16.0
+content_margin_top = 6.0
+content_margin_right = 16.0
+content_margin_bottom = 8.0
+bg_color = Color(0.4196, 0.1216, 0.1216, 1.0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.7216, 0.5725, 0.2471, 1.0)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+shadow_color = Color(0.0000, 0.0000, 0.0000, 0.6)
+shadow_size = 5
+shadow_offset = Vector2(0, 4)
+
+[sub_resource type="StyleBoxFlat" id="btn_hover"]
+content_margin_left = 16.0
+content_margin_top = 6.0
+content_margin_right = 16.0
+content_margin_bottom = 8.0
+bg_color = Color(0.5412, 0.1725, 0.1647, 1.0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.9412, 0.8118, 0.4784, 1.0)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+shadow_color = Color(0.9412, 0.8118, 0.4784, 0.35)
+shadow_size = 9
+shadow_offset = Vector2(0, 0)
+
+[sub_resource type="StyleBoxFlat" id="btn_pressed"]
+content_margin_left = 16.0
+content_margin_top = 9.0
+content_margin_right = 16.0
+content_margin_bottom = 5.0
+bg_color = Color(0.2667, 0.0706, 0.0588, 1.0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.7216, 0.5725, 0.2471, 1.0)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+shadow_color = Color(0.0000, 0.0000, 0.0000, 0.6)
+shadow_size = 2
+shadow_offset = Vector2(0, 1)
+
+[sub_resource type="StyleBoxFlat" id="btn_disabled"]
+content_margin_left = 16.0
+content_margin_top = 6.0
+content_margin_right = 16.0
+content_margin_bottom = 8.0
+bg_color = Color(0.2275, 0.1843, 0.1647, 1.0)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.3529, 0.2980, 0.2353, 1.0)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="btn_focus"]
+expand_margin_left = 3.0
+expand_margin_top = 3.0
+expand_margin_right = 3.0
+expand_margin_bottom = 3.0
+draw_center = false
+bg_color = Color(0.0000, 0.0000, 0.0000, 0.0)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.9412, 0.8118, 0.4784, 1.0)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="pan_bois"]
+content_margin_left = 12.0
+content_margin_top = 12.0
+content_margin_right = 12.0
+content_margin_bottom = 12.0
+bg_color = Color(0.1373, 0.0863, 0.0627, 0.96)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(0.7216, 0.5725, 0.2471, 1.0)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+shadow_color = Color(0.0000, 0.0000, 0.0000, 0.55)
+shadow_size = 12
+shadow_offset = Vector2(0, 6)
+
+[sub_resource type="StyleBoxFlat" id="pan_parchemin"]
+content_margin_left = 16.0
+content_margin_top = 12.0
+content_margin_right = 16.0
+content_margin_bottom = 12.0
+bg_color = Color(0.8902, 0.8235, 0.6667, 1.0)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color(0.4784, 0.3216, 0.1882, 1.0)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+shadow_color = Color(0.0000, 0.0000, 0.0000, 0.5)
+shadow_size = 10
+shadow_offset = Vector2(0, 5)
+
+[sub_resource type="StyleBoxFlat" id="pan_defaite"]
+content_margin_left = 16.0
+content_margin_top = 12.0
+content_margin_right = 16.0
+content_margin_bottom = 12.0
+bg_color = Color(0.2902, 0.0706, 0.0627, 1.0)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.7216, 0.5725, 0.2471, 1.0)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+shadow_color = Color(0.0000, 0.0000, 0.0000, 0.55)
+shadow_size = 10
+shadow_offset = Vector2(0, 5)
+
+[resource]
+default_font = ExtResource("1_cinzel")
+default_font_size = 24
+Button/colors/font_color = Color(0.9529, 0.9020, 0.7686, 1.0)
+Button/colors/font_hover_color = Color(1.0000, 0.9529, 0.8118, 1.0)
+Button/colors/font_hover_pressed_color = Color(0.8784, 0.7373, 0.4157, 1.0)
+Button/colors/font_pressed_color = Color(0.8784, 0.7373, 0.4157, 1.0)
+Button/colors/font_focus_color = Color(0.9529, 0.9020, 0.7686, 1.0)
+Button/colors/font_disabled_color = Color(0.4863, 0.4471, 0.3804, 1.0)
+Button/colors/font_outline_color = Color(0.1098, 0.0588, 0.0392, 1.0)
+Button/constants/outline_size = 3
+Button/styles/normal = SubResource("btn_normal")
+Button/styles/hover = SubResource("btn_hover")
+Button/styles/pressed = SubResource("btn_pressed")
+Button/styles/hover_pressed = SubResource("btn_pressed")
+Button/styles/disabled = SubResource("btn_disabled")
+Button/styles/focus = SubResource("btn_focus")
+Label/colors/font_color = Color(0.9529, 0.9020, 0.7686, 1.0)
+Label/colors/font_outline_color = Color(0.1098, 0.0588, 0.0392, 1.0)
+Label/constants/outline_size = 3
+Panel/styles/panel = SubResource("pan_bois")
+PanelContainer/styles/panel = SubResource("pan_bois")
+VBoxContainer/constants/separation = 10
+BoutonMenu/base_type = &"Button"
+BoutonMenu/font_sizes/font_size = 52
+TitleInk/base_type = &"Label"
+TitleInk/colors/font_color = Color(0.1804, 0.1137, 0.0706, 1.0)
+TitleInk/constants/outline_size = 0
+TitleInk/fonts/font = ExtResource("2_deco")
+TitleInk/font_sizes/font_size = 72
+TitleLight/base_type = &"Label"
+TitleLight/colors/font_color = Color(0.9529, 0.9020, 0.7686, 1.0)
+TitleLight/constants/outline_size = 5
+TitleLight/fonts/font = ExtResource("2_deco")
+TitleLight/font_sizes/font_size = 72
+GoldLabel/base_type = &"Label"
+GoldLabel/colors/font_color = Color(0.9412, 0.8118, 0.4784, 1.0)
+ParchmentPanel/base_type = &"Panel"
+ParchmentPanel/styles/panel = SubResource("pan_parchemin")
+DefeatPanel/base_type = &"Panel"
+DefeatPanel/styles/panel = SubResource("pan_defaite")

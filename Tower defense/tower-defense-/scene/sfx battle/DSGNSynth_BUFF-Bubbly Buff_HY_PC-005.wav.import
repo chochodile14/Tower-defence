@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bohm1slanxvv"
+path="res://.godot/imported/DSGNSynth_BUFF-Bubbly Buff_HY_PC-005.wav-d67da05e7ae2ce63b0fad3bc061a3b79.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Bubbly Buff_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Bubbly Buff_HY_PC-005.wav-d67da05e7ae2ce63b0fad3bc061a3b79.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3caeerfhrts4"
+path="res://.godot/imported/DSGNSynth_CAST-Mecha Energy Gathering_HY_PC-004.wav-2c3917a861d61bf2acd32c6ae3946ad4.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_CAST-Mecha Energy Gathering_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNSynth_CAST-Mecha Energy Gathering_HY_PC-004.wav-2c3917a861d61bf2acd32c6ae3946ad4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

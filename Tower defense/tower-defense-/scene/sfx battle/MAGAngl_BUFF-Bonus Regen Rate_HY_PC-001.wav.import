@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://7xxlpdui5se7"
+path="res://.godot/imported/MAGAngl_BUFF-Bonus Regen Rate_HY_PC-001.wav-c7d50d2ec3d130175fd9df2ffd4db5f8.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGAngl_BUFF-Bonus Regen Rate_HY_PC-001.wav"
+dest_files=["res://.godot/imported/MAGAngl_BUFF-Bonus Regen Rate_HY_PC-001.wav-c7d50d2ec3d130175fd9df2ffd4db5f8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://7mbr5ed8cp5d"
+path="res://.godot/imported/MAGSpel_CAST-High Powering Up_HY_PC-005.wav-deb852609edb4ff5e78ca0d8824f1161.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-High Powering Up_HY_PC-005.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-High Powering Up_HY_PC-005.wav-deb852609edb4ff5e78ca0d8824f1161.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

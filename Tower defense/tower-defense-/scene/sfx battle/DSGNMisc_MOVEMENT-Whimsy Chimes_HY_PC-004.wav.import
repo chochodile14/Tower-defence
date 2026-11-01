@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cf27dvwwia0ny"
+path="res://.godot/imported/DSGNMisc_MOVEMENT-Whimsy Chimes_HY_PC-004.wav-93fe07d8f98ea053b3c88b0f416499ea.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_MOVEMENT-Whimsy Chimes_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNMisc_MOVEMENT-Whimsy Chimes_HY_PC-004.wav-93fe07d8f98ea053b3c88b0f416499ea.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

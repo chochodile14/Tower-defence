@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dch54ygpksd18"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Thud_HY_PC-004.wav-fa427c6705ce71fe8f5e3c44e378e395.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Thud_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Thud_HY_PC-004.wav-fa427c6705ce71fe8f5e3c44e378e395.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dtjj3ojunxel2"
+path="res://.godot/imported/DSGNSynth_BUFF-Turn Locked_HY_PC-002.wav-11bdaf72e0c9d5c93dfc2683d85d31ba.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Turn Locked_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Turn Locked_HY_PC-002.wav-11bdaf72e0c9d5c93dfc2683d85d31ba.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

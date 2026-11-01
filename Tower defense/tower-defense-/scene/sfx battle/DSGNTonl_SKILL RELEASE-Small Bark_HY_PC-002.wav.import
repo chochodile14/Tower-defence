@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ci11cqpirre8v"
+path="res://.godot/imported/DSGNTonl_SKILL RELEASE-Small Bark_HY_PC-002.wav-bba57c2eb1061424dc93aa550295122e.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_SKILL RELEASE-Small Bark_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNTonl_SKILL RELEASE-Small Bark_HY_PC-002.wav-bba57c2eb1061424dc93aa550295122e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

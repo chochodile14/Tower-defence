@@ -18,6 +18,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 Global="*uid://dr5ic5sa42r8e"
+UiSfx="*uid://cukyc0bi3gjrg"
 
 [display]
 
@@ -33,6 +34,10 @@ folder_colors={
 "res://scene/main/": "purple"
 }
 
+[gui]
+
+theme/custom="res://scene/ui/theme_medieval.tres"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
@@ -40,3 +45,4 @@ folder_colors={
 [rendering]
 
 rendering_device/driver.windows="d3d12"
+environment/defaults/default_clear_color=Color(0.078431375, 0.05490196, 0.039215688, 1)

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cjdvbp5ld2n1q"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Grainy Burst_HY_PC-005.wav-b9b89c1758e7c6adf033f9ece0e1d485.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Grainy Burst_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Grainy Burst_HY_PC-005.wav-b9b89c1758e7c6adf033f9ece0e1d485.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

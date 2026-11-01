@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b8ya3rl63dl43"
+path="res://.godot/imported/DSGNMisc_MOVEMENT-Phase Swish_HY_PC-004.wav-5c4613eddb97578c3bcae1f0e822743f.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_MOVEMENT-Phase Swish_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNMisc_MOVEMENT-Phase Swish_HY_PC-004.wav-5c4613eddb97578c3bcae1f0e822743f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dkvl0w1xigtnv"
+path="res://.godot/imported/DSGNMisc_HIT-Gore Pierce_HY_PC-005.wav-f74af7231b0aed4738fb29ccd3e2c409.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_HIT-Gore Pierce_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNMisc_HIT-Gore Pierce_HY_PC-005.wav-f74af7231b0aed4738fb29ccd3e2c409.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

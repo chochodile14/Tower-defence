@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0k83rrjre3t6"
+path="res://.godot/imported/MAGSpel_CAST-Casting Buff_HY_PC-004.wav-a06c081c96a97e0ca8d22b7ebbceed3d.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Casting Buff_HY_PC-004.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Casting Buff_HY_PC-004.wav-a06c081c96a97e0ca8d22b7ebbceed3d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pp3ty2av1ide"
+path="res://.godot/imported/DSGNMisc_MELEE-Sword Reflect_HY_PC-001.wav-ea48761739ed3b666b474513b6d65e23.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_MELEE-Sword Reflect_HY_PC-001.wav"
+dest_files=["res://.godot/imported/DSGNMisc_MELEE-Sword Reflect_HY_PC-001.wav-ea48761739ed3b666b474513b6d65e23.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

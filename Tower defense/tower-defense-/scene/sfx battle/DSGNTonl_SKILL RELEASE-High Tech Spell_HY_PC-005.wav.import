@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://sqvg3i5cjnej"
+path="res://.godot/imported/DSGNTonl_SKILL RELEASE-High Tech Spell_HY_PC-005.wav-9a7d7de813bd03d38e58e5c2ddf96d39.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_SKILL RELEASE-High Tech Spell_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNTonl_SKILL RELEASE-High Tech Spell_HY_PC-005.wav-9a7d7de813bd03d38e58e5c2ddf96d39.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

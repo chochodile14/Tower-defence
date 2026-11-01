@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dnoyc18f0umck"
+path="res://.godot/imported/MAGSpel_CAST-Growing Strength_HY_PC-001.wav-042d569f694190fc4f0e93b030e923e0.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Growing Strength_HY_PC-001.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Growing Strength_HY_PC-001.wav-042d569f694190fc4f0e93b030e923e0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

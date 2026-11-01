@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bxl1h2k11rp3j"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Small Flare_HY_PC-003.wav-41de2f19e5b0d82d0a4c07877a108ba3.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Small Flare_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Small Flare_HY_PC-003.wav-41de2f19e5b0d82d0a4c07877a108ba3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

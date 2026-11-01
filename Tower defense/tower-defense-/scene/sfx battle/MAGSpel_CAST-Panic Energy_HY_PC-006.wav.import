@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bawbohgth2oo4"
+path="res://.godot/imported/MAGSpel_CAST-Panic Energy_HY_PC-006.wav-4087765724ef408baf677485bbbbe675.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Panic Energy_HY_PC-006.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Panic Energy_HY_PC-006.wav-4087765724ef408baf677485bbbbe675.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

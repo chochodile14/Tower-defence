@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c66fv30beoy5u"
+path="res://.godot/imported/DSGNTonl_SKILL RELEASE-Shimmery Bubbles_HY_PC-003.wav-dd5b43e8d3712893f11069f274d21462.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_SKILL RELEASE-Shimmery Bubbles_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNTonl_SKILL RELEASE-Shimmery Bubbles_HY_PC-003.wav-dd5b43e8d3712893f11069f274d21462.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

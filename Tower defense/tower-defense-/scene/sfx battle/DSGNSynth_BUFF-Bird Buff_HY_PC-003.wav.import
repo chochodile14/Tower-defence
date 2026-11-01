@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bvgr80iy3mt2u"
+path="res://.godot/imported/DSGNSynth_BUFF-Bird Buff_HY_PC-003.wav-a6a9af7833bfcfdbec6d2a0b00224371.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Bird Buff_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Bird Buff_HY_PC-003.wav-a6a9af7833bfcfdbec6d2a0b00224371.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cvfogawrcyk14"
+path="res://.godot/imported/MAGSpel_CAST-Zap Up_HY_PC-004.wav-1efc2e1f1f13caec1493814a35d9edab.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Zap Up_HY_PC-004.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Zap Up_HY_PC-004.wav-1efc2e1f1f13caec1493814a35d9edab.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

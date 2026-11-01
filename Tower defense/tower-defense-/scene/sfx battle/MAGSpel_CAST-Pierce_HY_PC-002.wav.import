@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cmuhfm7uvy5dt"
+path="res://.godot/imported/MAGSpel_CAST-Pierce_HY_PC-002.wav-8f3dbf0f35582adccd5315b69821e73b.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Pierce_HY_PC-002.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Pierce_HY_PC-002.wav-8f3dbf0f35582adccd5315b69821e73b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

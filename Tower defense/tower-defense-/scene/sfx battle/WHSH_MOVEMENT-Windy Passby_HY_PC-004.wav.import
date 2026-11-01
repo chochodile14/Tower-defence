@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c6nsmyy7517ms"
+path="res://.godot/imported/WHSH_MOVEMENT-Windy Passby_HY_PC-004.wav-91f805923cc46f65c3bd2c0edaf2ceaa.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/WHSH_MOVEMENT-Windy Passby_HY_PC-004.wav"
+dest_files=["res://.godot/imported/WHSH_MOVEMENT-Windy Passby_HY_PC-004.wav-91f805923cc46f65c3bd2c0edaf2ceaa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

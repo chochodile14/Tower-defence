@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b5ochmxrp37sm"
+path="res://.godot/imported/DSGNMisc_MOVEMENT-Zap Noise Sweep_HY_PC-005.wav-0ac0ef788de9d14303e9cf29f49b4f60.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_MOVEMENT-Zap Noise Sweep_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNMisc_MOVEMENT-Zap Noise Sweep_HY_PC-005.wav-0ac0ef788de9d14303e9cf29f49b4f60.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

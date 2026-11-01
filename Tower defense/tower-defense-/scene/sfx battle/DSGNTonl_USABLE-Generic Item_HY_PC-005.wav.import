@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://15rmrk7newy"
+path="res://.godot/imported/DSGNTonl_USABLE-Generic Item_HY_PC-005.wav-42cd100710f33f9e04d48a0b7ece74e2.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_USABLE-Generic Item_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNTonl_USABLE-Generic Item_HY_PC-005.wav-42cd100710f33f9e04d48a0b7ece74e2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

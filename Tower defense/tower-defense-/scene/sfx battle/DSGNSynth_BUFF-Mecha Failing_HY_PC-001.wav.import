@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2kys306h40ov"
+path="res://.godot/imported/DSGNSynth_BUFF-Mecha Failing_HY_PC-001.wav-6897363865b781e1af6eb57a1447e52f.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Mecha Failing_HY_PC-001.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Mecha Failing_HY_PC-001.wav-6897363865b781e1af6eb57a1447e52f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

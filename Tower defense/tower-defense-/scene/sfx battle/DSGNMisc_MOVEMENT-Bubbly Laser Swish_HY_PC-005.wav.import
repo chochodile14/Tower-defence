@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ccqdewjpo4yln"
+path="res://.godot/imported/DSGNMisc_MOVEMENT-Bubbly Laser Swish_HY_PC-005.wav-af1f84a667f71114e8da0b2f38c0fb32.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_MOVEMENT-Bubbly Laser Swish_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNMisc_MOVEMENT-Bubbly Laser Swish_HY_PC-005.wav-af1f84a667f71114e8da0b2f38c0fb32.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

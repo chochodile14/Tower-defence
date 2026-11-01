@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b3jf8i6414xru"
+path="res://.godot/imported/UIMisc_INTERFACE-Lock_HY_PC-002.wav-04338894b3b900a4dc8c0e233ad0c7f2.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/UIMisc_INTERFACE-Lock_HY_PC-002.wav"
+dest_files=["res://.godot/imported/UIMisc_INTERFACE-Lock_HY_PC-002.wav-04338894b3b900a4dc8c0e233ad0c7f2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

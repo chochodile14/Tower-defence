@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://sk2ef3r7jjrb"
+path="res://.godot/imported/UIGlitch_USABLE-Mecha Repair_HY_PC-002.wav-f3e6057eba293413314450f8c4bae9cf.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/UIGlitch_USABLE-Mecha Repair_HY_PC-002.wav"
+dest_files=["res://.godot/imported/UIGlitch_USABLE-Mecha Repair_HY_PC-002.wav-f3e6057eba293413314450f8c4bae9cf.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

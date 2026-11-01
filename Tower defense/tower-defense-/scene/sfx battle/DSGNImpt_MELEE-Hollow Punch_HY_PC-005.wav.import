@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d0ppexdyn7iho"
+path="res://.godot/imported/DSGNImpt_MELEE-Hollow Punch_HY_PC-005.wav-a8d5a88f5ab804fca09d8802020f9153.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_MELEE-Hollow Punch_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNImpt_MELEE-Hollow Punch_HY_PC-005.wav-a8d5a88f5ab804fca09d8802020f9153.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

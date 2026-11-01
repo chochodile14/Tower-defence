@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://buvohscljc4h6"
+path="res://.godot/imported/DSGNSynth_BUFF-Metallic Dodge Chance_HY_PC-002.wav-94aeba46583d7c3e5c3248253d4fceb4.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Metallic Dodge Chance_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Metallic Dodge Chance_HY_PC-002.wav-94aeba46583d7c3e5c3248253d4fceb4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

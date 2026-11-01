@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bl24feeddf278"
+path="res://.godot/imported/DSGNMisc_SKILL RELEASE-Wet Splash_HY_PC-002.wav-4330cd9d5c1ec0426f297e641e554bf4.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_SKILL RELEASE-Wet Splash_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNMisc_SKILL RELEASE-Wet Splash_HY_PC-002.wav-4330cd9d5c1ec0426f297e641e554bf4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

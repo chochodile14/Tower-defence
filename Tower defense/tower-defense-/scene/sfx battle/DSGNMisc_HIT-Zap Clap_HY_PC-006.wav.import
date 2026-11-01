@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b4v8cij633l1d"
+path="res://.godot/imported/DSGNMisc_HIT-Zap Clap_HY_PC-006.wav-3a7b5bf5acce5c97ca5d22c67b0cdae0.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_HIT-Zap Clap_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNMisc_HIT-Zap Clap_HY_PC-006.wav-3a7b5bf5acce5c97ca5d22c67b0cdae0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

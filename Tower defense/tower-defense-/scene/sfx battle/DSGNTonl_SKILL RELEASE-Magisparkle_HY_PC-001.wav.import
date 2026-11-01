@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://pvym8xr2c0pq"
+path="res://.godot/imported/DSGNTonl_SKILL RELEASE-Magisparkle_HY_PC-001.wav-d62922d2c33782994e6b004c63e0a087.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_SKILL RELEASE-Magisparkle_HY_PC-001.wav"
+dest_files=["res://.godot/imported/DSGNTonl_SKILL RELEASE-Magisparkle_HY_PC-001.wav-d62922d2c33782994e6b004c63e0a087.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

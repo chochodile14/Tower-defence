@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://rlsi0ifsubc6"
+path="res://.godot/imported/DSGNMisc_SKILL RELEASE-Chirping Critter_HY_PC-003.wav-fb6cd67b74d1810a4fbeee72d7b74d11.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_SKILL RELEASE-Chirping Critter_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNMisc_SKILL RELEASE-Chirping Critter_HY_PC-003.wav-fb6cd67b74d1810a4fbeee72d7b74d11.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

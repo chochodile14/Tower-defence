@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://xredgn85e0xg"
+path="res://.godot/imported/FEETMisc_STEP-Boots on Generic Ground 2_HY_PC-002.wav-65f6a1439e00a4263eed4e2d297d62ce.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/FEETMisc_STEP-Boots on Generic Ground 2_HY_PC-002.wav"
+dest_files=["res://.godot/imported/FEETMisc_STEP-Boots on Generic Ground 2_HY_PC-002.wav-65f6a1439e00a4263eed4e2d297d62ce.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

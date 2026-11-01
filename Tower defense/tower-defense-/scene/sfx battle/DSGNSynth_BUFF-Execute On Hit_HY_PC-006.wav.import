@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://3yla617h4m1d"
+path="res://.godot/imported/DSGNSynth_BUFF-Execute On Hit_HY_PC-006.wav-ab3742ca49abe80967de0bb202f55dcd.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Execute On Hit_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Execute On Hit_HY_PC-006.wav-ab3742ca49abe80967de0bb202f55dcd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

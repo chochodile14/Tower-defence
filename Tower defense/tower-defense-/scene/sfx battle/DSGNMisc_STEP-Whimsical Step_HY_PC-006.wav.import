@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cym1s00jad0vp"
+path="res://.godot/imported/DSGNMisc_STEP-Whimsical Step_HY_PC-006.wav-6cfd1ef6461eed3fe28d0050ad069e83.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_STEP-Whimsical Step_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNMisc_STEP-Whimsical Step_HY_PC-006.wav-6cfd1ef6461eed3fe28d0050ad069e83.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

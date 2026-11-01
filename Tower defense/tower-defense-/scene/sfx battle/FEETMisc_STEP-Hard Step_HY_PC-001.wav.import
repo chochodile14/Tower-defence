@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bwoow7wqegpx"
+path="res://.godot/imported/FEETMisc_STEP-Hard Step_HY_PC-001.wav-14da1963609207ab65e2d005a029c0dc.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/FEETMisc_STEP-Hard Step_HY_PC-001.wav"
+dest_files=["res://.godot/imported/FEETMisc_STEP-Hard Step_HY_PC-001.wav-14da1963609207ab65e2d005a029c0dc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

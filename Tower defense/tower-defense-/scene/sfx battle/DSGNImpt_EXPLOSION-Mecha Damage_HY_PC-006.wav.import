@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://u518hwd16wjl"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Mecha Damage_HY_PC-006.wav-d899cae600d3ba733b9c5274b6bf0dac.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Mecha Damage_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Mecha Damage_HY_PC-006.wav-d899cae600d3ba733b9c5274b6bf0dac.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

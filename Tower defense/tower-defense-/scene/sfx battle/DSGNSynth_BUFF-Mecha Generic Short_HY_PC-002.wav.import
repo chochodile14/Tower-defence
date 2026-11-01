@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://v35c80y3dbve"
+path="res://.godot/imported/DSGNSynth_BUFF-Mecha Generic Short_HY_PC-002.wav-1c4da83d777b3f5d7d223e41cf708d08.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Mecha Generic Short_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Mecha Generic Short_HY_PC-002.wav-1c4da83d777b3f5d7d223e41cf708d08.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

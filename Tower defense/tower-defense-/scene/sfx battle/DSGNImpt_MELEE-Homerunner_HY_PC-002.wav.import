@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2hkj032g174l"
+path="res://.godot/imported/DSGNImpt_MELEE-Homerunner_HY_PC-002.wav-45e812786b6b1b0224b5cc08a9f719e4.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_MELEE-Homerunner_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNImpt_MELEE-Homerunner_HY_PC-002.wav-45e812786b6b1b0224b5cc08a9f719e4.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

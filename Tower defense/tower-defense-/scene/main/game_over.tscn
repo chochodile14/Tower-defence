@@ -5,36 +5,72 @@
 [node name="Game Over" type="Node2D" unique_id=68135212]
 script = ExtResource("1_ukbi7")
 
+[node name="Cadre" type="Panel" parent="." unique_id=1001282091]
+offset_left = 460.0
+offset_top = 70.0
+offset_right = 1460.0
+offset_bottom = 880.0
+mouse_filter = 2
+
+[node name="Plaque" type="Panel" parent="." unique_id=4371315]
+offset_left = 560.0
+offset_top = 130.0
+offset_right = 1360.0
+offset_bottom = 330.0
+mouse_filter = 2
+theme_type_variation = &"DefeatPanel"
+
+[node name="Label" type="Label" parent="." unique_id=968287477]
+offset_left = 560.0
+offset_top = 130.0
+offset_right = 1360.0
+offset_bottom = 330.0
+theme_type_variation = &"TitleLight"
+text = "Game Over"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Filet" type="ColorRect" parent="." unique_id=565099966]
+offset_left = 660.0
+offset_top = 400.0
+offset_right = 1260.0
+offset_bottom = 402.0
+mouse_filter = 2
+color = Color(0.549, 0.4314, 0.1961, 1)
+
+[node name="Losange" type="ColorRect" parent="." unique_id=499725487]
+offset_left = 950.0
+offset_top = 391.0
+offset_right = 970.0
+offset_bottom = 411.0
+rotation = 0.785398
+pivot_offset = Vector2(10, 10)
+mouse_filter = 2
+color = Color(0.9412, 0.8118, 0.4784, 1)
+
 [node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=1883883095]
-offset_left = 426.0
-offset_top = 273.0
-offset_right = 1350.0
-offset_bottom = 563.996
+offset_left = 498.0
+offset_top = 520.0
+offset_right = 1422.0
+offset_bottom = 811.0
 size_flags_horizontal = 4
 size_flags_vertical = 4
 
 [node name="restart" type="Button" parent="VBoxContainer" unique_id=1956347752]
+custom_minimum_size = Vector2(420, 100)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 6
-theme_override_font_sizes/font_size = 60
+theme_type_variation = &"BoutonMenu"
 text = "Restart"
 
 [node name="quit" type="Button" parent="VBoxContainer" unique_id=1755829147]
+custom_minimum_size = Vector2(420, 100)
 layout_mode = 2
 size_flags_horizontal = 4
 size_flags_vertical = 6
-theme_override_font_sizes/font_size = 60
+theme_type_variation = &"BoutonMenu"
 text = "Quit"
-
-[node name="Label" type="Label" parent="." unique_id=968287477]
-offset_left = 790.0
-offset_top = 130.0
-offset_right = 1011.0
-offset_bottom = 172.00092
-size_flags_horizontal = 6
-theme_override_font_sizes/font_size = 30
-text = "Game Over"
 
 [connection signal="pressed" from="VBoxContainer/restart" to="." method="_on_restart_pressed"]
 [connection signal="pressed" from="VBoxContainer/quit" to="." method="_on_quit_pressed"]

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://0om46bn2buk8"
+path="res://.godot/imported/DSGNMisc_STEP-Critter Step_HY_PC-002.wav-17ddf49c40b597acf9e392971f06677c.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_STEP-Critter Step_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNMisc_STEP-Critter Step_HY_PC-002.wav-17ddf49c40b597acf9e392971f06677c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cspg6hnahw6f"
+path="res://.godot/imported/DSGNMisc_MOVEMENT-Mecha Laser Zapper_HY_PC-006.wav-59297e67c17ca00d811f6688c90ad695.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_MOVEMENT-Mecha Laser Zapper_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNMisc_MOVEMENT-Mecha Laser Zapper_HY_PC-006.wav-59297e67c17ca00d811f6688c90ad695.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://x87sm53nfayp"
+path="res://.godot/imported/FEETMisc_STEP-Boots on Concrete Dungeon_HY_PC-005.wav-6ebe2816814cdae48930f0c79116f218.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/FEETMisc_STEP-Boots on Concrete Dungeon_HY_PC-005.wav"
+dest_files=["res://.godot/imported/FEETMisc_STEP-Boots on Concrete Dungeon_HY_PC-005.wav-6ebe2816814cdae48930f0c79116f218.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

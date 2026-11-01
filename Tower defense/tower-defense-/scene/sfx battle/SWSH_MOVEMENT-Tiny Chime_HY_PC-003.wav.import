@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://08fifye25vsk"
+path="res://.godot/imported/SWSH_MOVEMENT-Tiny Chime_HY_PC-003.wav-86ab3f5273011028db2850d7666bc798.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/SWSH_MOVEMENT-Tiny Chime_HY_PC-003.wav"
+dest_files=["res://.godot/imported/SWSH_MOVEMENT-Tiny Chime_HY_PC-003.wav-86ab3f5273011028db2850d7666bc798.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

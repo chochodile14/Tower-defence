@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2wcmw2xoscal"
+path="res://.godot/imported/DSGNMisc_MOVEMENT-Pierce Jump_HY_PC-006.wav-a7b829fec3e707225485975173ee76ca.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_MOVEMENT-Pierce Jump_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNMisc_MOVEMENT-Pierce Jump_HY_PC-006.wav-a7b829fec3e707225485975173ee76ca.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

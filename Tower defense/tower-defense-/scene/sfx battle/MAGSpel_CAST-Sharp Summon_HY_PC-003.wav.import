@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d4f3j6gj82868"
+path="res://.godot/imported/MAGSpel_CAST-Sharp Summon_HY_PC-003.wav-3df6031990ff4b5f0810974cb73696a5.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Sharp Summon_HY_PC-003.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Sharp Summon_HY_PC-003.wav-3df6031990ff4b5f0810974cb73696a5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3qlm5xmahcg7"
+path="res://.godot/imported/DSGNMisc_HIT-Swish Clap_HY_PC-003.wav-04d106bc3c1b7d03a8621c4048089ee8.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_HIT-Swish Clap_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNMisc_HIT-Swish Clap_HY_PC-003.wav-04d106bc3c1b7d03a8621c4048089ee8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

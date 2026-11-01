@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhdqeo1phr5er"
+path="res://.godot/imported/DSGNSynth_BUFF-Mecha Lock In_HY_PC-003.wav-ae0a64602be49fbc013876ce0137420e.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Mecha Lock In_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Mecha Lock In_HY_PC-003.wav-ae0a64602be49fbc013876ce0137420e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b1jpbx4febpqv"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Nova Whiplash_HY_PC-002.wav-53a8e1ae3c1062fe82a8c0a1e49ec89a.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Nova Whiplash_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Nova Whiplash_HY_PC-002.wav-53a8e1ae3c1062fe82a8c0a1e49ec89a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b12w0t5ssifnm"
+path="res://.godot/imported/MAGAngl_BUFF-Effect Success_HY_PC-005.wav-f51cb22633b050092c454ec1ca8c59f3.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGAngl_BUFF-Effect Success_HY_PC-005.wav"
+dest_files=["res://.godot/imported/MAGAngl_BUFF-Effect Success_HY_PC-005.wav-f51cb22633b050092c454ec1ca8c59f3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

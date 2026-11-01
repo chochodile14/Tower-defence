@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://crj61legekysx"
+path="res://.godot/imported/DSGNSynth_BUFF-Mecha Selection_HY_PC-006.wav-2d1f860c4725654d2acb6b4edc233ea3.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Mecha Selection_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Mecha Selection_HY_PC-006.wav-2d1f860c4725654d2acb6b4edc233ea3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

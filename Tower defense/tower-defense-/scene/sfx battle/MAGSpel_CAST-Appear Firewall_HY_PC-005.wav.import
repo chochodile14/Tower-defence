@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cl6nu3t3t846s"
+path="res://.godot/imported/MAGSpel_CAST-Appear Firewall_HY_PC-005.wav-0c71b959f91861a86aa2fe85a2e326e6.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Appear Firewall_HY_PC-005.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Appear Firewall_HY_PC-005.wav-0c71b959f91861a86aa2fe85a2e326e6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

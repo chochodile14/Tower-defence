@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://070mt4o3shlj"
+path="res://.godot/imported/DSGNMisc_PROJECTILE-Clicky Bubbly_HY_PC-001.wav-41db5817e763cacf24b0965ea86ea958.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_PROJECTILE-Clicky Bubbly_HY_PC-001.wav"
+dest_files=["res://.godot/imported/DSGNMisc_PROJECTILE-Clicky Bubbly_HY_PC-001.wav-41db5817e763cacf24b0965ea86ea958.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

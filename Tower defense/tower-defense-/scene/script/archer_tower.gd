@@ -58,8 +58,6 @@ func _enemis_en_portee():
 
 
 func ameliorer():
-	if niveau >= NIVEAU_MAX :
-		return
 	niveau +=1
 	match type :
 		Type.SOLO , Type.ZONE :
@@ -75,11 +73,16 @@ func ameliorer():
 
 
 func _action_amelio():
-		if Global.gold >= prix_amelio :
-			ameliorer()
-		else:
-			print("pas asser d'or")
-		print("niv ", niveau, " | dégâts ", degats, " | cadence ", cadence.wait_time)
+	if niveau >= NIVEAU_MAX :
+		UiSfx.jouer("refus")
+		return
+	elif Global.gold >= prix_amelio :
+		UiSfx.jouer("amelio")
+		ameliorer()
+	else:
+		print("pas asser d'or")
+		UiSfx.jouer("refus")
+	print("niv ", niveau, " | dégâts ", degats, " | cadence ", cadence.wait_time)
 
 func texte_stat_actuelle() -> String:
 	match type:

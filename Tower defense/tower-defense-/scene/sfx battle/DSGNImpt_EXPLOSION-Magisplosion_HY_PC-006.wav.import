@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bbho3o7whd8po"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Magisplosion_HY_PC-006.wav-9c21191f44d19860ba5f60c4316c0d05.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Magisplosion_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Magisplosion_HY_PC-006.wav-9c21191f44d19860ba5f60c4316c0d05.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cv13ndvjg06o8"
+path="res://.godot/imported/SWSH_MOVEMENT-Bubbly Passby_HY_PC-003.wav-c2d157ce395253cb3ee34d6d10a2b017.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/SWSH_MOVEMENT-Bubbly Passby_HY_PC-003.wav"
+dest_files=["res://.godot/imported/SWSH_MOVEMENT-Bubbly Passby_HY_PC-003.wav-c2d157ce395253cb3ee34d6d10a2b017.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

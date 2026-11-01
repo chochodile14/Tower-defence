@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d3muthn2bm18w"
+path="res://.godot/imported/FEETMisc_STEP-Boots on Metal_HY_PC-003.wav-17bb4730777ae5954ca2a72d943a797e.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/FEETMisc_STEP-Boots on Metal_HY_PC-003.wav"
+dest_files=["res://.godot/imported/FEETMisc_STEP-Boots on Metal_HY_PC-003.wav-17bb4730777ae5954ca2a72d943a797e.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bk2x30eun7n7r"
+path="res://.godot/imported/DSGNMisc_SKILL IMPACT-Mecha Pink Laser_HY_PC-001.wav-7e1961f71b1969f7f648c72056aef0da.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_SKILL IMPACT-Mecha Pink Laser_HY_PC-001.wav"
+dest_files=["res://.godot/imported/DSGNMisc_SKILL IMPACT-Mecha Pink Laser_HY_PC-001.wav-7e1961f71b1969f7f648c72056aef0da.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

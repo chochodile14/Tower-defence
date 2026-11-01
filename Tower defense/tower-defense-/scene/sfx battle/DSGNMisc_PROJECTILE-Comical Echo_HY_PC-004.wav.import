@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://goceim0s54ar"
+path="res://.godot/imported/DSGNMisc_PROJECTILE-Comical Echo_HY_PC-004.wav-c3a6cb89d1b20b25f16a487ed3ec6dc5.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_PROJECTILE-Comical Echo_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNMisc_PROJECTILE-Comical Echo_HY_PC-004.wav-c3a6cb89d1b20b25f16a487ed3ec6dc5.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

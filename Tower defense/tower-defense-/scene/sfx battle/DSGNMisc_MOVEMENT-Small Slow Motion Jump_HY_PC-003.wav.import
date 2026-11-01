@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1b51k8u8t0vu"
+path="res://.godot/imported/DSGNMisc_MOVEMENT-Small Slow Motion Jump_HY_PC-003.wav-efb28c2f9ffee9e2296a26f163641d26.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_MOVEMENT-Small Slow Motion Jump_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNMisc_MOVEMENT-Small Slow Motion Jump_HY_PC-003.wav-efb28c2f9ffee9e2296a26f163641d26.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

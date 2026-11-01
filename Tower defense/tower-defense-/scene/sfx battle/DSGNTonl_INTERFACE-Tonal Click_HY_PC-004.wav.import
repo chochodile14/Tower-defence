@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c2dqmpudvac5d"
+path="res://.godot/imported/DSGNTonl_INTERFACE-Tonal Click_HY_PC-004.wav-a66bd0541be042c6a6ded5d5df1a2354.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_INTERFACE-Tonal Click_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNTonl_INTERFACE-Tonal Click_HY_PC-004.wav-a66bd0541be042c6a6ded5d5df1a2354.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

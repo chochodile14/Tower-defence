@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b1tka107uo33y"
+path="res://.godot/imported/DSGNMisc_SKILL RELEASE-Skipping Impact_HY_PC-003.wav-5b0f0b0984424bed50857e3f2f79e567.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_SKILL RELEASE-Skipping Impact_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNMisc_SKILL RELEASE-Skipping Impact_HY_PC-003.wav-5b0f0b0984424bed50857e3f2f79e567.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

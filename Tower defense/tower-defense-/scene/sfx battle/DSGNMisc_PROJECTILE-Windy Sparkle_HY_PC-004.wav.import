@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://ddrg3jsiayywx"
+path="res://.godot/imported/DSGNMisc_PROJECTILE-Windy Sparkle_HY_PC-004.wav-4d8c1eddc99de82e69f81a4bd345b697.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_PROJECTILE-Windy Sparkle_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNMisc_PROJECTILE-Windy Sparkle_HY_PC-004.wav-4d8c1eddc99de82e69f81a4bd345b697.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

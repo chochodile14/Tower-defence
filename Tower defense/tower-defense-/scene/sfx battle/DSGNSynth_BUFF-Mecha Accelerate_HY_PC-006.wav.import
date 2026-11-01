@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhap62rdcrfu7"
+path="res://.godot/imported/DSGNSynth_BUFF-Mecha Accelerate_HY_PC-006.wav-3e4a0c213862ef889f546ef5e2cd2a7a.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNSynth_BUFF-Mecha Accelerate_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNSynth_BUFF-Mecha Accelerate_HY_PC-006.wav-3e4a0c213862ef889f546ef5e2cd2a7a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://deajtty16o0kb"
+path="res://.godot/imported/DSGNTonl_SKILL RELEASE-Whimsy Kick_HY_PC-001.wav-d44d97ea9d4c7e673242c20424e7f44a.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_SKILL RELEASE-Whimsy Kick_HY_PC-001.wav"
+dest_files=["res://.godot/imported/DSGNTonl_SKILL RELEASE-Whimsy Kick_HY_PC-001.wav-d44d97ea9d4c7e673242c20424e7f44a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

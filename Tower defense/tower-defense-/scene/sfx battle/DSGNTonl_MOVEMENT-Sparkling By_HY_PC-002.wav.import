@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0dej8es1qntm"
+path="res://.godot/imported/DSGNTonl_MOVEMENT-Sparkling By_HY_PC-002.wav-652dd7ac84f80e0c64aaa5396cfc6288.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_MOVEMENT-Sparkling By_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNTonl_MOVEMENT-Sparkling By_HY_PC-002.wav-652dd7ac84f80e0c64aaa5396cfc6288.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d4i26bm2s5p8e"
+path="res://.godot/imported/MAGAngl_BUFF-Shimmering Winds_HY_PC-002.wav-15d533c1dfe3f40041f614c20a7d8b4b.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGAngl_BUFF-Shimmering Winds_HY_PC-002.wav"
+dest_files=["res://.godot/imported/MAGAngl_BUFF-Shimmering Winds_HY_PC-002.wav-15d533c1dfe3f40041f614c20a7d8b4b.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

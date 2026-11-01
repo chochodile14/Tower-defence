@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c3pg4sw27rd3q"
+path="res://.godot/imported/DSGNMisc_PROJECTILE-Mecha Magic Shrapnel_HY_PC-006.wav-51cef33b0ebf80b4ea9b823c3ab592aa.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_PROJECTILE-Mecha Magic Shrapnel_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNMisc_PROJECTILE-Mecha Magic Shrapnel_HY_PC-006.wav-51cef33b0ebf80b4ea9b823c3ab592aa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://iduuiu1vwkj8"
+path="res://.godot/imported/DSGNTonl_USABLE-Coin Toss_HY_PC-004.wav-ee5b05fa4f4ee4c61f78e87011a69b28.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_USABLE-Coin Toss_HY_PC-004.wav"
+dest_files=["res://.godot/imported/DSGNTonl_USABLE-Coin Toss_HY_PC-004.wav-ee5b05fa4f4ee4c61f78e87011a69b28.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

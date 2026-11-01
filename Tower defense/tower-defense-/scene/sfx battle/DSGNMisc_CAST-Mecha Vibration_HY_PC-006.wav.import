@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://yqhhx1l8pwy1"
+path="res://.godot/imported/DSGNMisc_CAST-Mecha Vibration_HY_PC-006.wav-32f5ec3283f184e8f14e027462f00c66.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_CAST-Mecha Vibration_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNMisc_CAST-Mecha Vibration_HY_PC-006.wav-32f5ec3283f184e8f14e027462f00c66.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://f8o3oavrvg0c"
+path="res://.godot/imported/FEETMisc_STEP-Boots on Grass_HY_PC-002.wav-a5ed9a5f68d1fc0be715c5bde02e70fc.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/FEETMisc_STEP-Boots on Grass_HY_PC-002.wav"
+dest_files=["res://.godot/imported/FEETMisc_STEP-Boots on Grass_HY_PC-002.wav-a5ed9a5f68d1fc0be715c5bde02e70fc.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

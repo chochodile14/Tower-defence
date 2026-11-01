@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://yfp7w68f7j3g"
+path="res://.godot/imported/DSGNMisc_PROJECTILE-Toon Sparkle_HY_PC-005.wav-1aea41c384af8ec85df3b39771b95a7f.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_PROJECTILE-Toon Sparkle_HY_PC-005.wav"
+dest_files=["res://.godot/imported/DSGNMisc_PROJECTILE-Toon Sparkle_HY_PC-005.wav-1aea41c384af8ec85df3b39771b95a7f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

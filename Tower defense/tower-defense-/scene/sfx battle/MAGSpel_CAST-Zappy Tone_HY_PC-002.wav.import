@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://davu0artrv1x5"
+path="res://.godot/imported/MAGSpel_CAST-Zappy Tone_HY_PC-002.wav-7a73524fb15bb95d7564a99eae88fb8c.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/MAGSpel_CAST-Zappy Tone_HY_PC-002.wav"
+dest_files=["res://.godot/imported/MAGSpel_CAST-Zappy Tone_HY_PC-002.wav-7a73524fb15bb95d7564a99eae88fb8c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

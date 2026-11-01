@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dk5n8hb77dv0f"
+path="res://.godot/imported/DSGNImpt_EXPLOSION-Flare Extinguish_HY_PC-006.wav-9015ede7af1eaffbf192885f9d7b0524.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNImpt_EXPLOSION-Flare Extinguish_HY_PC-006.wav"
+dest_files=["res://.godot/imported/DSGNImpt_EXPLOSION-Flare Extinguish_HY_PC-006.wav-9015ede7af1eaffbf192885f9d7b0524.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

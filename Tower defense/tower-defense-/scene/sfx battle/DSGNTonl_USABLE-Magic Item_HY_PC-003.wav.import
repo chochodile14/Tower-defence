@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cnro2n7dlmnmn"
+path="res://.godot/imported/DSGNTonl_USABLE-Magic Item_HY_PC-003.wav-98e7f03ee853408ad6cace7f4cbce60c.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_USABLE-Magic Item_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNTonl_USABLE-Magic Item_HY_PC-003.wav-98e7f03ee853408ad6cace7f4cbce60c.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

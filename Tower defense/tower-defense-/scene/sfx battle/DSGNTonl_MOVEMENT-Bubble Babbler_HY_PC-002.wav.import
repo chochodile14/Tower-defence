@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dcfp44bkldn5m"
+path="res://.godot/imported/DSGNTonl_MOVEMENT-Bubble Babbler_HY_PC-002.wav-1d0a226828e592ffec01743e8d40ca03.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNTonl_MOVEMENT-Bubble Babbler_HY_PC-002.wav"
+dest_files=["res://.godot/imported/DSGNTonl_MOVEMENT-Bubble Babbler_HY_PC-002.wav-1d0a226828e592ffec01743e8d40ca03.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

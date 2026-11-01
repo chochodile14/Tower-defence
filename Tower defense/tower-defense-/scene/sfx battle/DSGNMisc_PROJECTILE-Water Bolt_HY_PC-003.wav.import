@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bkv7t6ic8tcnx"
+path="res://.godot/imported/DSGNMisc_PROJECTILE-Water Bolt_HY_PC-003.wav-2ab7031c0f36ceb6971377ce832fe873.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/DSGNMisc_PROJECTILE-Water Bolt_HY_PC-003.wav"
+dest_files=["res://.godot/imported/DSGNMisc_PROJECTILE-Water Bolt_HY_PC-003.wav-2ab7031c0f36ceb6971377ce832fe873.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2

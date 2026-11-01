@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cwctl3tkacyks"
+path="res://.godot/imported/WHSH_MOVEMENT-Mecha Energy Passby_HY_PC-005.wav-9f42e797f076f0975090ee68e695a0eb.sample"
+
+[deps]
+
+source_file="res://scene/sfx battle/WHSH_MOVEMENT-Mecha Energy Passby_HY_PC-005.wav"
+dest_files=["res://.godot/imported/WHSH_MOVEMENT-Mecha Energy Passby_HY_PC-005.wav-9f42e797f076f0975090ee68e695a0eb.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
