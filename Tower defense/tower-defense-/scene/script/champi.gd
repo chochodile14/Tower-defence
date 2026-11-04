@@ -4,6 +4,7 @@ var fini := false
 var vitesse := 200.0
 var facteur := 1.0
 var ralenti_restant := 0.0
+var flash_tween :Tween
 @onready var path_follow: PathFollow2D = get_parent()
 @onready var animation : AnimatedSprite2D = $AnimatedSprite2D
 signal dead
@@ -32,13 +33,17 @@ func take_dammage(amount:int):
 	if fini:
 		return
 	life -= amount
+	if flash_tween:
+		flash_tween.kill()
+	
 	$AnimatedSprite2D.modulate = Color.FIREBRICK
-	$AnimatedSprite2D.modulate = Color.WHITE
+	flash_tween=create_tween()
+	flash_tween.tween_property($AnimatedSprite2D,"modulate" , Color.WHITE,0.15)
 	if life <= 0 :
-		animation.play("Death")
-		await get_tree().create_timer(1)
 		fini = true
 		Global.gold +=1
 		print("MORT | spawn = ", Global.spawn)
+		$AnimatedSprite2D.play("Death")
+		await get_tree().create_timer(1).timeout
 		Global.spawn -=1
 		get_parent().queue_free()

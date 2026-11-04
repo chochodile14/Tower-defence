@@ -116,8 +116,6 @@ rotation = -3.1415925
 scale = Vector2(-2.096, -2.096)
 sprite_frames = SubResource("SpriteFrames_g4v7s")
 animation = &"Death"
-frame = 3
-frame_progress = 0.70096254
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=912850923]
 position = Vector2(60, 69)
