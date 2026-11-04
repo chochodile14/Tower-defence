@@ -19,10 +19,9 @@ func _ralentir(f:float , duree: float):
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if Global.life <= 0 :
-		animation.play("Death")
-	else :
-		animation.play("walk")
+	if fini:
+		return
+	animation.play("walk")
 	if ralenti_restant > 0.0:
 		ralenti_restant -= delta
 		$AnimatedSprite2D.modulate = Color.CADET_BLUE
@@ -47,8 +46,6 @@ func take_dammage(amount:int):
 		Global.gold +=1
 		print("MORT | spawn = ", Global.spawn)
 		$AnimatedSprite2D.play("Death")
-		print("Anim: ", animation.animation, " | joue: ", animation.is_playing())
-		await get_tree().create_timer(0.3).timeout
-		print("Après 0.3s: ", animation.animation)
+		await get_tree().create_timer(0.7).timeout
 		Global.spawn -=1
 		get_parent().queue_free()
