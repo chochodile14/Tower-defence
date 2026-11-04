@@ -32,7 +32,11 @@ func take_dammage(amount:int):
 	if fini:
 		return
 	life -= amount
+	$AnimatedSprite2D.modulate = Color.FIREBRICK
+	$AnimatedSprite2D.modulate = Color.WHITE
 	if life <= 0 :
+		animation.play("Death")
+		await get_tree().create_timer(1)
 		fini = true
 		Global.gold +=1
 		print("MORT | spawn = ", Global.spawn)

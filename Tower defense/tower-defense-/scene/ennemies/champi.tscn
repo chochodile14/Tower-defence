@@ -1,38 +1,77 @@
 [gd_scene format=3 uid="uid://572n8f1terl"]
 
-[ext_resource type="Texture2D" uid="uid://c2ndlwdl61cjb" path="res://scene/asset/champi sans fond.png" id="1_i7xav"]
 [ext_resource type="Script" uid="uid://5uhffnkylggm" path="res://scene/script/champi.gd" id="1_whg63"]
+[ext_resource type="Texture2D" uid="uid://cuyvlsrguyou" path="res://scene/asset/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Characters(100x100 split)/Demon_A/Demon_A with shadows/Demon_A_Death.png" id="2_goer6"]
+[ext_resource type="Texture2D" uid="uid://bwulmvltip8o2" path="res://scene/asset/Tiny RPG Character Asset Pack 02 -Free Demon_A&Blood Monster_A/Characters(100x100 split)/Demon_A/Demon_A with shadows/Demon_A.png" id="2_whg63"]
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_whg63"]
-atlas = ExtResource("1_i7xav")
-region = Rect2(146, 81, 73, 81)
+[sub_resource type="AtlasTexture" id="AtlasTexture_cgae8"]
+atlas = ExtResource("2_goer6")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ugpma"]
+atlas = ExtResource("2_goer6")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8hf6d"]
+atlas = ExtResource("2_goer6")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nhuxx"]
+atlas = ExtResource("2_goer6")
+region = Rect2(300, 0, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_goer6"]
-atlas = ExtResource("1_i7xav")
-region = Rect2(219, 81, 73, 81)
+atlas = ExtResource("2_whg63")
+region = Rect2(0, 100, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ht7f3"]
-atlas = ExtResource("1_i7xav")
-region = Rect2(292, 81, 73, 81)
+atlas = ExtResource("2_whg63")
+region = Rect2(100, 100, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8onj2"]
-atlas = ExtResource("1_i7xav")
-region = Rect2(365, 81, 73, 81)
+atlas = ExtResource("2_whg63")
+region = Rect2(200, 100, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tr71u"]
-atlas = ExtResource("1_i7xav")
-region = Rect2(438, 81, 73, 81)
+atlas = ExtResource("2_whg63")
+region = Rect2(300, 100, 100, 100)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_o0y6m"]
-atlas = ExtResource("1_i7xav")
-region = Rect2(511, 81, 73, 81)
+atlas = ExtResource("2_whg63")
+region = Rect2(400, 100, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tcara"]
+atlas = ExtResource("2_whg63")
+region = Rect2(500, 100, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gui6m"]
+atlas = ExtResource("2_whg63")
+region = Rect2(600, 100, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1nwyl"]
+atlas = ExtResource("2_whg63")
+region = Rect2(700, 100, 100, 100)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_whg63")
+"texture": SubResource("AtlasTexture_cgae8")
 }, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ugpma")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8hf6d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nhuxx")
+}],
+"loop": 1,
+"name": &"Death",
+"speed": 5.0
+}, {
+"frames": [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_goer6")
 }, {
@@ -47,6 +86,15 @@ animations = [{
 }, {
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_o0y6m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tcara")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gui6m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1nwyl")
 }],
 "loop": 1,
 "name": &"walk",
@@ -65,12 +113,12 @@ script = ExtResource("1_whg63")
 texture_filter = 1
 position = Vector2(64.00001, 65)
 rotation = -3.1415925
-scale = Vector2(2.0958905, -2.0958905)
+scale = Vector2(-2.096, -2.096)
 sprite_frames = SubResource("SpriteFrames_g4v7s")
-animation = &"walk"
+animation = &"Death"
 frame = 3
-frame_progress = 0.33723077
+frame_progress = 0.70096254
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=912850923]
-position = Vector2(80, 79)
+position = Vector2(60, 69)
 shape = SubResource("CapsuleShape2D_yf5fn")
