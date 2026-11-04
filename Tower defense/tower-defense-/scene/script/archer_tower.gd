@@ -89,7 +89,7 @@ func texte_stat_actuelle() -> String:
 		Type.SOLO, Type.ZONE:
 			return "Degats: %d" % degats
 		Type.RALENTI:
-			return "Degats: %d%%" % int((1.0 - facteur_ralenti )*100)
+			return "Ralenti: %d%%" % int((1.0 - facteur_ralenti )*100)
 	return""
 
 
@@ -98,7 +98,7 @@ func texte_stat_future() -> String:
 		return "MAX"
 	match type:
 		Type.SOLO, Type.ZONE:
-			return "Dégâts: %d" % (degats + 3)
+			return "Dégats: %d" % (degats + 3)
 		Type.RALENTI:
 			return "Ralenti: %d%%" % int((1.0 - maxf(facteur_ralenti - 0.08, 0.1)) * 100)
 	return ""
