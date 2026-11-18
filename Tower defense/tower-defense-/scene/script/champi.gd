@@ -44,8 +44,6 @@ func take_dammage(amount:int):
 	if life <= 0 :
 		fini = true
 		Global.gold +=1
-		print("MORT | spawn = ", Global.spawn)
 		$AnimatedSprite2D.play("Death")
 		await get_tree().create_timer(0.7).timeout
-		Global.spawn -=1
 		get_parent().queue_free()

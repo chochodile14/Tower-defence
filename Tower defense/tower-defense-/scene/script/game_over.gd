@@ -5,8 +5,9 @@ func _ready() -> void:
 
 func _on_restart_pressed() -> void:
 	Global.life = 5
+	Global.wave = 0
+	Global.max_wave = 10
 	Global.gold = 50
-	Global.spawn = 0
 	get_tree().change_scene_to_file("res://scene/game/game.tscn")
 
 

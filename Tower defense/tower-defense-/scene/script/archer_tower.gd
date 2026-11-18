@@ -42,7 +42,7 @@ func _tirer() -> void:
 			for c in cible:
 				c._ralentir(facteur_ralenti,2.0)
 
-	print("tick | zones: ", portee.get_overlapping_areas(), " | corps: ", portee.get_overlapping_bodies())
+#	print("tick | zones: ", portee.get_overlapping_areas(), " | corps: ", portee.get_overlapping_bodies())
 
 
 func _enemis_en_portee():

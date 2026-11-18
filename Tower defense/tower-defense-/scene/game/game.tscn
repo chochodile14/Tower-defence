@@ -24,6 +24,7 @@ curve = SubResource("Curve2D_pw1yp")
 [node name="PathFollow2D" type="PathFollow2D" parent="Path2D" unique_id=666400788]
 position = Vector2(7, 206)
 rotation = 0.034426738
+rotates = false
 
 [node name="CanvasModulate" type="CanvasLayer" parent="." unique_id=341552690]
 
