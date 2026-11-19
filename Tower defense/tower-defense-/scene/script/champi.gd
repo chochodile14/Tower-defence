@@ -1,4 +1,4 @@
-extends RigidBody2D
+extends Node2D
 var life = 10
 var fini := false
 var vitesse := 200.0

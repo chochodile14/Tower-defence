@@ -17,6 +17,7 @@ point_count = 8
 script = ExtResource("1_8xedm")
 
 [node name="TileMap" parent="." unique_id=650993531 instance=ExtResource("2_pw1yp")]
+position = Vector2(9, 75)
 
 [node name="Path2D" type="Path2D" parent="." unique_id=1861295305]
 curve = SubResource("Curve2D_pw1yp")

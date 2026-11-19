@@ -1,121 +1,313 @@
 [gd_scene format=3 uid="uid://cgph1e2stjj7v"]
 
-[ext_resource type="Script" uid="uid://b5s3quffg3s8m" path="res://scene/script/hub.gd" id="1_isfw2"]
+[ext_resource type="Script" uid="uid://b5s3quffg3s8m" path="res://scene/script/hub.gd" id="1_hub"]
 
-[sub_resource type="Animation" id="Animation_8mxwf"]
-resource_name = "Box"
-length = 1.5666667
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("VBoxContainer:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0, 1.03, 1.27, 1.5666667),
-"transitions": PackedFloat32Array(1, 1, 1, 1),
-"update": 0,
-"values": [Vector2(-928, 244), Vector2(498, 520), Vector2(1047, 650), Vector2(498, 520)]
-}
+[sub_resource type="Gradient" id="Gradient_vig"]
+offsets = PackedFloat32Array(0.4, 1)
+colors = PackedColorArray(0, 0, 0, 0, 0, 0, 0, 0.85)
 
-[sub_resource type="Animation" id="Animation_isfw2"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("VBoxContainer:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(-928, 244)]
-}
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_vig"]
+gradient = SubResource("Gradient_vig")
+width = 512
+height = 512
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(1, 0.5)
 
-[sub_resource type="Animation" id="Animation_m7bv1"]
-resource_name = "label"
-length = 1.3333334
+[node name="Hub" type="Control" unique_id=1462139902]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_hub")
 
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_dgk1r"]
-_data = {
-&"Box": SubResource("Animation_8mxwf"),
-&"RESET": SubResource("Animation_isfw2"),
-&"label": SubResource("Animation_m7bv1")
-}
-
-[node name="Hub" type="Node2D" unique_id=32403582]
-script = ExtResource("1_isfw2")
-
-[node name="Cadre" type="Panel" parent="."]
+[node name="Fond" type="ColorRect" parent="." unique_id=510473989]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 mouse_filter = 2
-offset_left = 460.0
-offset_top = 70.0
-offset_right = 1460.0
-offset_bottom = 880.0
+color = Color(0.0627, 0.051, 0.0706, 1)
 
-[node name="Plaque" type="Panel" parent="."]
+[node name="Vignette" type="TextureRect" parent="." unique_id=1758824853]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = SubResource("GradientTexture2D_vig")
+expand_mode = 1
+
+[node name="Centre" type="CenterContainer" parent="." unique_id=955625660]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Colonne" type="VBoxContainer" parent="Centre" unique_id=1110191122]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 20
+
+[node name="SlotPlaque" type="Control" parent="Centre/Colonne" unique_id=1627180238]
+custom_minimum_size = Vector2(1000, 190)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Plaque" type="Panel" parent="Centre/Colonne/SlotPlaque" unique_id=353162501]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 mouse_filter = 2
 theme_type_variation = &"ParchmentPanel"
-offset_left = 560.0
-offset_top = 130.0
-offset_right = 1360.0
-offset_bottom = 330.0
 
-[node name="Label" type="Label" parent="." unique_id=1080159161]
-offset_left = 560.0
-offset_top = 130.0
-offset_right = 1360.0
-offset_bottom = 330.0
+[node name="Titre" type="Label" parent="Centre/Colonne/SlotPlaque/Plaque" unique_id=381291100]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_type_variation = &"TitleInk"
-text = "Tower Defense"
+text = "Demon Against Tower"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Filet" type="ColorRect" parent="."]
-mouse_filter = 2
-offset_left = 660.0
-offset_top = 400.0
-offset_right = 1260.0
-offset_bottom = 402.0
-color = Color(0.5490, 0.4314, 0.1961, 1)
-
-[node name="Losange" type="ColorRect" parent="."]
-mouse_filter = 2
-offset_left = 950.0
-offset_top = 391.0
-offset_right = 970.0
-offset_bottom = 411.0
-rotation = 0.785398
-pivot_offset = Vector2(10, 10)
-color = Color(0.9412, 0.8118, 0.4784, 1)
-
-[node name="VBoxContainer" type="VBoxContainer" parent="." unique_id=446950942]
-offset_left = -928.0
-offset_top = 244.0
-offset_right = -4.0
-offset_bottom = 534.996
-size_flags_horizontal = 4
-size_flags_vertical = 4
-
-[node name="start" type="Button" parent="VBoxContainer" unique_id=279241595]
-custom_minimum_size = Vector2(420, 100)
+[node name="Ornement" type="Control" parent="Centre/Colonne" unique_id=209398904]
+custom_minimum_size = Vector2(640, 24)
 layout_mode = 2
 size_flags_horizontal = 4
-size_flags_vertical = 6
+mouse_filter = 2
+
+[node name="Filet" type="ColorRect" parent="Centre/Colonne/Ornement" unique_id=1519727496]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -1.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.549, 0.4314, 0.1961, 1)
+
+[node name="Filet" type="ColorRect" parent="Centre/Colonne/Ornement/Filet" unique_id=876705779]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -470.0
+offset_top = -1.0
+offset_right = -333.0
+offset_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.549, 0.4314, 0.1961, 1)
+
+[node name="Losange" type="ColorRect" parent="Centre/Colonne/Ornement" unique_id=1136670417]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -10.0
+offset_top = -10.0
+offset_right = 10.0
+offset_bottom = 10.0
+grow_horizontal = 2
+grow_vertical = 2
+rotation = 0.785398
+pivot_offset = Vector2(10, 10)
+mouse_filter = 2
+color = Color(0.9412, 0.8118, 0.4784, 1)
+
+[node name="Espace" type="Control" parent="Centre/Colonne" unique_id=1726734816]
+custom_minimum_size = Vector2(0, 30)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="Boutons" type="VBoxContainer" parent="Centre/Colonne" unique_id=423978574]
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+theme_override_constants/separation = 16
+
+[node name="SlotStart" type="Control" parent="Centre/Colonne/Boutons" unique_id=777788296]
+custom_minimum_size = Vector2(420, 84)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+
+[node name="Start" type="Button" parent="Centre/Colonne/Boutons/SlotStart" unique_id=1495083187]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_type_variation = &"BoutonMenu"
 text = "Start"
 
-[node name="quit" type="Button" parent="VBoxContainer" unique_id=1591796440]
-custom_minimum_size = Vector2(420, 100)
+[node name="SlotCredits" type="Control" parent="Centre/Colonne/Boutons" unique_id=1236199173]
+custom_minimum_size = Vector2(420, 84)
 layout_mode = 2
 size_flags_horizontal = 4
-size_flags_vertical = 6
+mouse_filter = 2
+
+[node name="Credits" type="Button" parent="Centre/Colonne/Boutons/SlotCredits" unique_id=644946187]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_type_variation = &"BoutonMenu"
+text = "Credits"
+
+[node name="SlotQuit" type="Control" parent="Centre/Colonne/Boutons" unique_id=347942649]
+custom_minimum_size = Vector2(420, 84)
+layout_mode = 2
+size_flags_horizontal = 4
+mouse_filter = 2
+
+[node name="Quit" type="Button" parent="Centre/Colonne/Boutons/SlotQuit" unique_id=1590585389]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 theme_type_variation = &"BoutonMenu"
 text = "Quit"
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=830951670]
-libraries/ = SubResource("AnimationLibrary_dgk1r")
+[node name="CurseurG" type="ColorRect" parent="." unique_id=628616257]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_right = 16.0
+offset_bottom = 16.0
+rotation = 0.785398
+pivot_offset = Vector2(8, 8)
+mouse_filter = 2
+color = Color(0.9412, 0.8118, 0.4784, 1)
 
-[connection signal="pressed" from="VBoxContainer/start" to="." method="_on_start_pressed"]
-[connection signal="pressed" from="VBoxContainer/quit" to="." method="_on_quit_pressed"]
+[node name="CurseurD" type="ColorRect" parent="." unique_id=476342573]
+unique_name_in_owner = true
+modulate = Color(1, 1, 1, 0)
+layout_mode = 0
+offset_right = 16.0
+offset_bottom = 16.0
+rotation = 0.785398
+pivot_offset = Vector2(8, 8)
+mouse_filter = 2
+color = Color(0.9412, 0.8118, 0.4784, 1)
+
+[node name="PageCredits" type="ColorRect" parent="." unique_id=2022055092]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0.82)
+
+[node name="CentrePage" type="CenterContainer" parent="PageCredits" unique_id=544715759]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="PanelCredits" type="Panel" parent="PageCredits/CentrePage" unique_id=567870127]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(900, 580)
+layout_mode = 2
+theme_type_variation = &"ParchmentPanel"
+
+[node name="Marge" type="MarginContainer" parent="PageCredits/CentrePage/PanelCredits" unique_id=1676559400]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 60
+theme_override_constants/margin_top = 50
+theme_override_constants/margin_right = 60
+theme_override_constants/margin_bottom = 50
+
+[node name="Pile" type="VBoxContainer" parent="PageCredits/CentrePage/PanelCredits/Marge" unique_id=1390279781]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="TitreCredits" type="Label" parent="PageCredits/CentrePage/PanelCredits/Marge/Pile" unique_id=1552965153]
+layout_mode = 2
+theme_type_variation = &"TitleInk"
+text = "Credits"
+horizontal_alignment = 1
+
+[node name="TexteCredits" type="Label" parent="PageCredits/CentrePage/PanelCredits/Marge/Pile" unique_id=2126472787]
+layout_mode = 2
+size_flags_vertical = 3
+text = "Code, game design and font
+Okalips
+
+Visuals, sounds and music
+Free assets found online
+
+Special thanks
+Emolga and the whole Hexa Studio team"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="Retour" type="Button" parent="PageCredits/CentrePage/PanelCredits/Marge/Pile" unique_id=1725661562]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(300, 72)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"BoutonMenu"
+text = "Back"
+
+[node name="Voile" type="ColorRect" parent="." unique_id=248954337]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -4.0
+offset_top = 23.0
+offset_right = -4.0
+offset_bottom = 23.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0, 0, 0, 0)
