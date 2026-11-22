@@ -1,6 +1,6 @@
 extends Node
 @onready var wave : int = 0
-@onready var max_wave: int = 10
+@onready var max_wave: int = 4
 @onready var gold = 50
 @onready var life = 1000000000#juste pour les test normalment =5
 @onready var mob_in_wave = 0
@@ -11,7 +11,6 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if wave >= max_wave:
+	if wave > max_wave:
+		wave = 0
 		get_tree().change_scene_to_file("res://scene/main/credit.tscn")
-		await get_tree().create_timer(65).timeout
-		queue_free()

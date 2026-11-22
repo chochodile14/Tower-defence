@@ -47,7 +47,7 @@ func _tirer() -> void:
 
 func _enemis_en_portee():
 	var liste = []
-	for corps in portee.get_overlapping_bodies():
+	for corps in portee.get_overlapping_areas():
 		if corps.is_in_group("ennemis"):
 			liste.append(corps)
 	return liste

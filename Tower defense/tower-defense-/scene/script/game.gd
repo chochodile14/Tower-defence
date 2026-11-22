@@ -1,11 +1,11 @@
 extends Node2D
-@onready var can_spawn := true
+@onready var can_spawn := false
 @onready var timer_sp: float = 1.5
 @onready var N_spawn: int = 0
 @onready var N_spawn_Max: int= Global.wave*5+10
 var emplacement_actif = null
-var ennemy_scene = preload("res://scene/ennemies/champi.tscn")
-
+var ennemys_scenes : Array = [preload("res://scene/ennemies/champi.tscn"),preload("res://scene/ennemies/second_monster.tscn")]
+var boss = preload("res://scene/ennemies/boss.tscn")
 
 func _ready() -> void:
 	add_to_group("game")
@@ -14,7 +14,8 @@ func _ready() -> void:
 	for i in get_tree().get_nodes_in_group("emplacement"):
 		i.Panel_Open.connect(_sur_emplacement_clique)
 	print("game")
-	spawn_enemy()
+	await get_tree().create_timer(1.5).timeout
+	can_spawn = true
 
 
 func _process(delta: float) -> void:
@@ -29,8 +30,13 @@ func _process(delta: float) -> void:
 #-------------------------------------------------------------------------------
 #apparaition de l'ennemie
 func spawn_enemy() -> void:
+	if N_spawn % 10 == 0 and N_spawn > 0:
+		var path_follow = PathFollow2D.new()
+		var enemy = boss.instantiate()
+		path_follow.add_child(enemy)
+		$Path2D.add_child(path_follow)
 	var path_follow = PathFollow2D.new()
-	var enemy = ennemy_scene.instantiate()
+	var enemy = ennemys_scenes.pick_random().instantiate()
 	path_follow.add_child(enemy)
 	$Path2D.add_child(path_follow)
 

@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://ptalu6hpdavq"]
+
+[ext_resource type="Script" uid="uid://11axl74jn3w2" path="res://scene/script/wave.gd" id="1_vkqep"]
+
+[node name="wave" type="Node2D" unique_id=2001322087]
+script = ExtResource("1_vkqep")
+
+[node name="Wave_in" type="Label" parent="." unique_id=840786122]
+offset_right = 40.0
+offset_bottom = 33.0
+
+[node name="wave_max" type="Label" parent="." unique_id=1214974571]
+offset_left = 79.0
+offset_top = 1.0
+offset_right = 119.0
+offset_bottom = 34.0
+
+[node name="slash" type="Label" parent="." unique_id=974668140]
+offset_left = 47.0
+offset_top = 2.0
+offset_right = 87.0
+offset_bottom = 35.0
+text = "/"

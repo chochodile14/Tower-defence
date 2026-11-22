@@ -1,5 +1,5 @@
-extends Node2D
-var life = 10
+extends Area2D
+var life = 20
 var fini := false
 var vitesse := 200.0
 var facteur := 1.0

@@ -5,8 +5,9 @@ extends ScrollContainer
 @onready var margin : MarginContainer = $MarginContainer
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
-	var tween = create_tween()
+	
 	await get_tree().create_timer(0.01).timeout
+	var tween = create_tween()
 	var text_box_size = text_node.size.y
 	var windows_size = DisplayServer.window_get_size().y
 	margin.add_theme_constant_override("margin_top", windows_size + margin_increment)
@@ -20,6 +21,8 @@ func _ready() -> void:
 	)
 	
 	tween.play()
+	await get_tree().create_timer(60).timeout
+	get_tree().quit()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
 	pass

@@ -5,6 +5,7 @@
 [ext_resource type="PackedScene" uid="uid://cuxu257p73hmy" path="res://scene/ui/counter_gold.tscn" id="2_l2vx3"]
 [ext_resource type="PackedScene" uid="uid://bmcdqj3imi7pi" path="res://scene/map/tile_map.tscn" id="2_pw1yp"]
 [ext_resource type="PackedScene" uid="uid://ba36ypvnmd8u8" path="res://scene/ui/emplacement.tscn" id="4_82mss"]
+[ext_resource type="PackedScene" uid="uid://ptalu6hpdavq" path="res://scene/game/wave.tscn" id="5_5nn1g"]
 [ext_resource type="PackedScene" uid="uid://d2jxu77ls6o8t" path="res://scene/game/Degat.tscn" id="5_tr56l"]
 
 [sub_resource type="Curve2D" id="Curve2D_pw1yp"]
@@ -33,7 +34,10 @@ rotates = false
 position = Vector2(1634, 100)
 
 [node name="life" parent="CanvasModulate" unique_id=2110105874 instance=ExtResource("2_0tn4t")]
-position = Vector2(1608, 544)
+position = Vector2(1126, 81)
+
+[node name="wave" parent="CanvasModulate" unique_id=2001322087 instance=ExtResource("5_5nn1g")]
+position = Vector2(1368, 80)
 
 [node name="Emplacement" parent="." unique_id=1821445781 instance=ExtResource("4_82mss")]
 offset_left = 726.0

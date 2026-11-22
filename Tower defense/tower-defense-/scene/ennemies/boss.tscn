@@ -1,0 +1,120 @@
+[gd_scene format=3 uid="uid://cqe3dffff5nvh"]
+
+[ext_resource type="Script" uid="uid://uswmgxtfqaou" path="res://scene/script/boss.gd" id="1_aicha"]
+[ext_resource type="Texture2D" uid="uid://db4rh4aawb7pg" path="res://scene/asset/Tiny RPG Character Asset Pack 01 v2.0 -Free Soldier&Orc/Characters(100x100 split)/Orc/Orc with shadows/Orc_Death.png" id="1_et1ap"]
+[ext_resource type="Texture2D" uid="uid://6q6a7sw5gfgk" path="res://scene/asset/Tiny RPG Character Asset Pack 01 v2.0 -Free Soldier&Orc/Characters(100x100 split)/Orc/Orc with shadows/Orc_Walk.png" id="2_aicha"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8evj1"]
+atlas = ExtResource("1_et1ap")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1kxbl"]
+atlas = ExtResource("1_et1ap")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_che36"]
+atlas = ExtResource("1_et1ap")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g55xi"]
+atlas = ExtResource("1_et1ap")
+region = Rect2(300, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xxbi2"]
+atlas = ExtResource("2_aicha")
+region = Rect2(0, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_65tct"]
+atlas = ExtResource("2_aicha")
+region = Rect2(100, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vpq1w"]
+atlas = ExtResource("2_aicha")
+region = Rect2(200, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_et4ww"]
+atlas = ExtResource("2_aicha")
+region = Rect2(300, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_whluo"]
+atlas = ExtResource("2_aicha")
+region = Rect2(400, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0wkwx"]
+atlas = ExtResource("2_aicha")
+region = Rect2(500, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dyiku"]
+atlas = ExtResource("2_aicha")
+region = Rect2(600, 0, 100, 100)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1vvc3"]
+atlas = ExtResource("2_aicha")
+region = Rect2(700, 0, 100, 100)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_g4v7s"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8evj1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1kxbl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_che36")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g55xi")
+}],
+"loop": 1,
+"name": &"Death",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xxbi2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_65tct")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vpq1w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_et4ww")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_whluo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0wkwx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dyiku")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1vvc3")
+}],
+"loop": 1,
+"name": &"Walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yf5fn"]
+radius = 16.03122
+
+[node name="Boss" type="Area2D" unique_id=1197283135]
+position = Vector2(27.999998, 49.999996)
+scale = Vector2(5, 5)
+script = ExtResource("1_aicha")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=960592801]
+texture_filter = 1
+position = Vector2(2, 0)
+sprite_frames = SubResource("SpriteFrames_g4v7s")
+animation = &"Walk"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=613761974]
+position = Vector2(3, 0)
+shape = SubResource("CircleShape2D_yf5fn")

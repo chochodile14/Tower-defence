@@ -139,11 +139,6 @@ func _ecraser(b: Button) -> void:
 # ----------------------------------------------------------- ACTIONS
 
 func _on_start_pressed() -> void:
-#	if _occupe:
-#		return
-#	if scene_jeu.is_empty():
-#		push_error("Hub : renseigne « Scene Jeu » dans l'inspecteur (nœud Hub).")
-#		return
 	await _sortie()
 	get_tree().change_scene_to_file("res://scene/game/game.tscn")
 
