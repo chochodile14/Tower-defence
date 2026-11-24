@@ -21,7 +21,7 @@ func _ready() -> void:
 	)
 	
 	tween.play()
-	await get_tree().create_timer(60).timeout
+	await get_tree().create_timer(85).timeout
 	get_tree().quit()
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:

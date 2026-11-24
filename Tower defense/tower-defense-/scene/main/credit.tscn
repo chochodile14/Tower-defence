@@ -11,7 +11,7 @@ horizontal_scroll_mode = 0
 vertical_scroll_mode = 3
 script = ExtResource("1_cuqjw")
 text_node = NodePath("MarginContainer/RichTextLabel")
-credit_timer = 60.0
+credit_timer = 100.0
 
 [node name="MarginContainer" type="MarginContainer" parent="." unique_id=1253750724]
 layout_mode = 2

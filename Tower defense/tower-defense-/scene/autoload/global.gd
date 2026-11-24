@@ -1,8 +1,8 @@
 extends Node
 @onready var wave : int = 0
-@onready var max_wave: int = 4
+@onready var max_wave: int = 7
 @onready var gold = 50
-@onready var life = 1000000000#juste pour les test normalment =5
+@onready var life = 10#juste pour les test normalment =10
 @onready var mob_in_wave = 0
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:

@@ -1,5 +1,5 @@
 extends Area2D
-var life =80
+var life =80+Global.wave ** 2 /2
 var fini := false
 var vitesse := 100.0
 var facteur := 1.0
